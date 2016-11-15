@@ -1,0 +1,1 @@
+<?xml version="1.0"?><dwquery>  <queryparams matchcase="false" ignorewhitespace="false" useregexp="false" wholeword="false" />  <find searchmode="document">    <qtext qname="TG-5e" qraw="true"></qtext>  </find>  <replace action="replaceText" param1="TG-5e u3" param2=""/></dwquery>

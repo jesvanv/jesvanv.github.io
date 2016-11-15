@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Scrolling By</title>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script type='text/javascript' src='jquery.mousewheel.js'></script>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" >
+        
+        <style>
+            
+            html, body {height:100%; margin:0}
+            
+            .caveTop {
+                width:6000px;
+                min-height: 50px;
+                background: #345;
+                position: absolute;
+                top:0;
+            }
+            
+            .midBackground {
+                width:6000px;
+                min-height: 100%;
+                height: 100%;
+                z-index: -1;
+                background: #456;
+            }
+            
+            .caveBottom {
+                 width:6000px;
+                min-height: 50px;
+                background: #345;
+                position: absolute;
+                bottom:0;
+            }
+        
+        
+        </style>
+    </head>
+
+    <body>
+        <div class="caveTop"></div>
+        <div class="midBackground"></div>
+        <div class="caveBottom"></div>
+    </body>
+
+<script>
+    $("body").bind('mousewheel', function(event, delta) {
+        if (delta > 0) 
+            { 
+                window.scrollBy(80,0);
+                
+            
+            } 
+        
+        else
+            { window.scrollBy(-80,0);}
+    });
+</script>
+</html>

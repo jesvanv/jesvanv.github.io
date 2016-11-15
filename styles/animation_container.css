@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+body {
+	padding-top:25px !important;
+	background:url(/images/paper_bg_1.jpg) !important;
+	text-align:center !important;
+	max-width:500px;
+}
+
+html {
+	max-width:500px;
+}
+
+#flashContent {
+	box-shadow: 5px 5px 5px #000;
+	width:550px;
+	margin: 5px 20%!important;
+	transform:scale(0.65) !important;
+}
+

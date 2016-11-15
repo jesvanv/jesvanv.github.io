@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta name="robots" content="noindex,nofollow,noarchive"/>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../txtg/styles/tx_tg_styles.css" rel="stylesheet" type="text/css" />
+<link href="../txtg/styles/SpryAccordion.css" rel="stylesheet" type="text/css" />
+<link href='http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif:700italic' rel='stylesheet' type='text/css' />
+
+<!--[if IE 6]>
+<link href="../styles/tx_tg_styles_ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!--[if IE 7]>
+<link href="../styles/tx_tg_styles_ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!--[if IE 8]>
+<link href="../styles/tx_tg_styles.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<script src="http://use.edgefonts.net/league-gothic.js"></script>
+<script src="../txtg/scripts/SpryAccordion.js" type="text/javascript"></script>
+<script src="../txtg/scripts/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="mydiv"><a href="#">Back to Top<img src="../txtg/images/arrow_up.png" alt="Up Arrow"></a></div>
+<div class="container">
+    <div id="head_main"> <a href="../txtg/tx6/index.html"><img src="../txtg/images/spacer.gif" width="965" height="105" alt="CPO Science Texas Science Grade 6 Teacher's Guide" style="margin:0; border:none" /></a></div>
+    <div id="upper_nav">
+        <ul>
+            <li><a href="../txtg/tx6/index.html">Home</a></li>
+            <li><a href="../txtg/tx6/TX6_ell_strategies.html" target="ell_strategies">ELL Strategies</a></li>
+            <li><a href="../txtg/tx6/TX6_ell_glossary.html" target="ell_glossary">ELL Glossary</a></li>
+            <li><a href="../txtg/tx6/lab_equipment.html" target="lab_eq">Using Lab Equipment</a></li>
+            <li><a href="../txtg/tx6/TX6_safety_guides.html" target="safety">Safety</a></li>
+        </ul>
+    </div>
+    
+    <!-- ACCORDION SIDE NAV -->
+    
+    <div id="side_nav">
+        <div id="Accordion1" class="Accordion" tabindex="1">
+            <div class="unit_break">Unit 1 </div>
+            <div class="AccordionPanel" title="Click to open or close">
+                <div class="AccordionPanelTab">Chapter 1
+                    <p class="chapter_name">Science Practices</p>
+                </div>
+                <div class="AccordionPanelContent">
+                    <p class="lesson_sub">Lesson 1.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_OV.html" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_OV.html" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 1.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_2_OV.html" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_2_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_2_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_2_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_2_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_2_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 1.3</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_3_OV.html" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_3_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_3_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_3_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_3_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_3_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 1 Answer&nbsp;Key</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 2
+                    <p class="chapter_name">Motion</p>
+                </div>
+                <div class="AccordionPanelContent">
+                    <p class="lesson_sub">Lesson 2.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 2.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                   
+                 <p class="lesson_sub">Lesson 2.3</p>
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 2 Answer&nbsp;Key</a></li>
+                </ul>
+         
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 3
+                    <p class="chapter_name">Force</p>
+                </div>
+                <div class="AccordionPanelContent">
+                    <p class="lesson_sub">Lesson 3.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 3.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 3.3</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 3 Answer&nbsp;Key</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 4
+                    <p class="chapter_name">Gravity and Space</p>
+                </div>
+                <div class="AccordionPanelContent" > 
+                   
+                    <p class="lesson_sub">Lesson 4.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                 
+                    <p class="lesson_sub">Lesson 4.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                  
+                 <p class="lesson_sub">Lesson 4.3</p>
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 4 Answer&nbsp;Key</a></li>
+                </ul>
+  
+                </div>
+            </div>
+            <div class="unit_break">Unit 2 </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 5
+                    <p class="chapter_name">What is Matter?</p>
+                </div>
+                <div class="AccordionPanelContent" >
+                    <p class="lesson_sub">Lesson 5.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 5.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 5 Answer&nbsp;Key</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 6
+                    <p class="chapter_name">Elements</p>
+                </div>
+                <div class="AccordionPanelContent" >
+                    <p class="lesson_sub">Lesson 6.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                   
+   <p class="lesson_sub">Lesson 6.2</p>
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+                
+                   <p class="lesson_sub">Lesson 6.3</p>
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 6 Answer&nbsp;Key</a></li>
+                </ul>
+
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 7
+                    <p class="chapter_name">Compounds</p>
+                </div>
+                <div class="AccordionPanelContent" >
+                    <p class="lesson_sub">Lesson 7.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 7.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 7 Answer&nbsp;Key</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="unit_break">Unit 3 </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 8
+                    <p class="chapter_name">Types of Energy</p>
+                </div>
+                <div class="AccordionPanelContent" >
+                    <p class="lesson_sub">Lesson 8.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 8.2</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                    <p class="lesson_sub">Lesson 8.3</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 8 Answer&nbsp;Key</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 9
+                    <p class="chapter_name">Thermal Energy</p>
+                </div>
+                <div class="AccordionPanelContent" >
+                    <p class="lesson_sub">Lesson 9.1</p>
+                    <ul class="nav_list">
+                        <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                        <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                        <ul class="5e_item">
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                            <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                        </ul>
+                    </ul>
+                   
+   <p class="lesson_sub">Lesson 9.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+                   <p class="lesson_sub">Lesson 9.3</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 9 Answer&nbsp;Key</a></li>
+                </ul>
+                
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 10
+                <p class="chapter_name">Energy Resources</p></div>
+                <div class="AccordionPanelContent" >
+                                       <p class="lesson_sub">Lesson 10.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+   <p class="lesson_sub">Lesson 10.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 10 Answer&nbsp;Key</a></li>
+                </ul>
+                    
+                </div>
+            </div>
+            <div class="unit_break">Unit 4 </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 11
+                <p class="chapter_name">Inside Earth</p></div>
+                <div class="AccordionPanelContent" >
+                   
+                                    
+                                       <p class="lesson_sub">Lesson 11.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+   <p class="lesson_sub">Lesson 11.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+                   <p class="lesson_sub">Lesson 11.3</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 11 Answer&nbsp;Key</a></li>
+                </ul>
+                    
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 12
+                <p class="chapter_name">Plate Tectonics</p></div>
+                <div class="AccordionPanelContent" >
+                                    
+                                       <p class="lesson_sub">Lesson 12.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+                
+   <p class="lesson_sub">Lesson 12.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+                   <p class="lesson_sub">Lesson 12.3</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 12 Answer&nbsp;Key</a></li>
+                </ul>
+                
+
+                    
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 13
+                <p class="chapter_name">Earthquakes <br />and Volcanoes</p></div>
+                <div class="AccordionPanelContent" >
+                    
+                                    
+                                       <p class="lesson_sub">Lesson 13.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+   <p class="lesson_sub">Lesson 13.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 13 Answer&nbsp;Key</a></li>
+                </ul>
+                                
+
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 14
+                <p class="chapter_name">Classifying<br />Earth Minerals</p></div>
+                <div class="AccordionPanelContent" > 
+                                    
+                                       <p class="lesson_sub">Lesson 14.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+   <p class="lesson_sub">Lesson 14.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+                
+  
+                
+                   <p class="lesson_sub">Lesson 14.3</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+             
+                
+                                   <p class="lesson_sub">Lesson 14.4</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 14 Answer&nbsp;Key</a></li>
+                </ul>
+                    
+                </div>
+            </div>
+            <div class="unit_break">Unit 5 </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 15
+                <p class="chapter_name">Cells</p></div>
+                <div class="AccordionPanelContent" >
+                                    
+  <p class="lesson_sub">Lesson 15.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+                
+
+   <p class="lesson_sub">Lesson 15.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 15 Answer&nbsp;Key</a></li>
+                </ul>
+                    
+                </div>
+            </div>
+            <div class="AccordionPanel" title="Only Chapter 1 is available in this sample">
+                <div class="AccordionPanelTab">Chapter 16
+                <p class="chapter_name">Ecosystems</p></div>
+                <div class="AccordionPanelContent" >
+                 
+                                    
+  <p class="lesson_sub">Lesson 16.1</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                </ul>
+
+   <p class="lesson_sub">Lesson 16.2</p>
+   
+            <ul class="nav_list">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Overview</a></li>
+                <li class="nav_5e_title"><a href="TX6_TG_1_1_5E.html#engage" title=" ">5E Lessons</a></li>
+                <ul class="5e_item">
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Engage</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explore</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Explain</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Elaborate</a></li>
+                <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Evaluate</a></li>
+                </ul>
+                     <li><a href="TX6_TG_1_1_5E.html#engage" title=" ">Chapter 16 Answer&nbsp;Key</a></li>
+                </ul>
+                
+
+                    
+                </div>
+            </div>
+        </div>
+       <!-- <div class="under_toc"><a href="../tx6/TX6_ell_strategies.html" style="color:#FFF">ELL Strategies</a></div> -->
+    </div>
+    
+    <!-- end Accordion -->
+    
+    <div class="content"><!-- TemplateBeginEditable name="content" -->
+        <h1>Instructions</h1>
+        <p>Be aware that the CSS for these layouts is heavily commented. If you do most of your work in Design view, have a peek at the code to get tips on working with the CSS for the fixed layouts. You can remove these comments before you launch your site. To learn more about the techniques used in these CSS Layouts, read this article at Adobe's Developer Center - <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
+        <h2>Clearing</h2>
+        <p>Because all the columns are floated, this layout uses overflow:hidden on the .container. This clearing technique forces the .container to understand where the columns end in order to show any borders or background colors you place on the .container. If you have a large element that protrudes outside the .container, it will appear to be cut off. You also won't be able to use negative margins or absolute positioning with negative values to pull elements outside the .container or they will also won't display outside the </p>
+        <p>&nbsp;</p>
+        <script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script> 
+        <!-- TemplateEndEditable --> 
+        <script type="text/javascript">
+$(window).load(function() {
+	 if ($(this).scrollTop() < 135) {
+        $("#mydiv").hide();
+    }
+						});
+						
+$(window).scroll(function() {
+    if ($(this).scrollTop() < 135) {
+        $("#mydiv").fadeOut();
+    }
+    else {
+        $("#mydiv").fadeIn();
+    }
+});
+
+</script> 
+        <!-- end .content --></div>
+    <!-- end .container --></div>
+    
+    <!-- Footer -->
+    <div id="footer">  
+    <ul>
+    	<li>ISBN: 978-1-60431-231-7</li>
+		<li>Part Number: 592-6640</li>
+    	<li><a href="../tx6/TX6_credits.html">Credits</a></li>
+        <li><a href="../tx6/TX6_copyright.html" target="_copyright">Copyright</a></li>
+    </ul>
+    </div>
+    
+</body>
+</html>

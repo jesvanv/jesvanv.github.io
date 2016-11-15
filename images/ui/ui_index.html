@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>User Interface Mockups</title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/packery/1.4.3/packery.pkgd.min.js"></script>
+
+  
+    <link href="../../styles/jcvanv_styles.css" rel="stylesheet" type="text/css" />
+<style>
+    
+
+    
+    #uiContainer {
+        margin: 20px auto;
+        padding: 10px;
+        max-width: 1092px;
+    }
+    
+    .item {
+        width:350px;
+        position: relative;
+        left:0;
+        top:0;
+    }
+        
+    .item:hover {
+        background: none;
+        box-shadow: none;
+    }
+    
+    .item-big {
+        width: 1000px;
+        z-index: 50;         
+    }
+    
+    </style>
+
+
+</head>
+<body>
+  <!--
+  <div id="uiContainer">
+       <a href="eps_district_41715a_full.html" target="_blank"><img src="eps_district_41715a.png" class="item" /></a>
+       <a href="eps_district_42115a.html" target="_blank"><img src="eps_district_42115a_thumb.png" class="item" /></a>
+       <a href="eps_home_5115.html" target="_blank"><img src="eps_home_5115_thumb.png" class="item" /></a>
+       <a href="eps_student_41515.html" target="_blank"><img src="eps_student_41515_thumb.png" class="item" /></a>
+       <a href="eps_student_42215.html" target="_blank"><img src="eps_student_42215_thumb.png" class="item" /> </a> 
+       <a href="eps_home_5515c.html" target="_blank"><img src="eps_home_5515c_thumb.png" class="item" />  </a>
+   </div>
+   -->
+
+   
+    <div id="uiContainer">
+     <img src="eps_district_41715a.png" class="item" />
+       <img src="eps_district_42115a.png" class="item" />
+       <img src="eps_home_5115.png" class="item" />
+       <img src="eps_student_41515.png" class="item" />
+       <img src="eps_student_42215.png" class="item" /> 
+      <img src="eps_home_5515c.png" class="item" /> 
+   </div>
+     
+   
+    
+</body>
+    <script>
+        
+         var $container = $('#uiContainer');
+            // init
+            $container.packery({
+              itemSelector: '.item',
+              gutter: 20
+            });
+     
+    jQuery.fn.center = function () {
+        this.css("position","absolute");
+        this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
+                                                    $(window).scrollTop()) + "px");
+        this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) - 119));
+        return this;
+    }
+    
+    jQuery.fn.unCenter = function () {
+        this.css("position","relative");
+        this.css("top", "0");
+        this.css("left", "0");
+        return this;
+    }
+
+        
+      
+        var thisStyle, imgSource;
+        
+        $("img").click().toggle(
+            function() {
+                thisStyle = $(this).css(['postion', 'top', 'left']);
+                imgSource = $(this).attr('src');
+                $(this).attr('src', imgSource.slice(0, -4) + '_full.png')
+                $(this).removeClass('item').addClass('item-big').center();},          
+            function() {
+                imgSource = $(this).attr('src');
+                $(this).removeClass('item-big').addClass('item').css(thisStyle);
+                 $(this).attr('src', imgSource.slice(0, -9) + '.png' )
+            }
+            );
+            
+           
+        
+    </script>  
+</html>

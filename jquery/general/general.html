@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Some JQuery Stuff</title>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="general.js"></script>
+    </head>
+    
+    <body>
+        <div class="main">
+        <p class="basic" id="para1">This is a paragraph.</p>
+        </div>
+        
+        <script>
+            $(window).load(function() {
+                $("#para1").html("Hello" + infoString("John", "June"));
+            });
+        </script>
+    
+    </body>
+
+</html>

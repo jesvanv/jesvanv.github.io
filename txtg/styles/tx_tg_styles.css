@@ -1,0 +1,1779 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Architects+Daughter);	
+
+img {
+    border:none;
+}
+
+/* Breakout table styles: */
+
+.breakouts_table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	padding: 0.5em;
+	margin: 15px;
+	width: 95%;
+	border: 1px solid #000;
+}	
+
+.handwritten {
+	font-family: 'Architects Daughter', cursive;
+	font-weight: normal;
+}
+
+.green {
+	color:#690;	
+}
+
+.symbol {
+	font-family:"Symbol", Symbol, sans-serif;
+}
+
+.breakouts_table th {
+	border: 1px solid #000;
+	font-weight: bold;
+	background: #999;
+	color: #FFF;
+}
+.breakouts_table td {
+	padding: 5px 0 5px 5px;
+}
+
+
+.highlight:target {
+	background-color: yellow;
+}
+
+/* Universal styles */
+
+body {
+	background:url(../tx6/images/tx6/tx6_body_bg.jpg) no-repeat fixed #CFCFCF;
+	background-size:100%;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+/* Return to top box */
+
+#mydiv {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	border-bottom-right-radius: 7px;
+	background: #3B89C7;
+	padding: 5px 5px 5px 15px;
+	box-shadow: 1px 1px 4px #FFF;
+	max-height:35px;
+	max-width:180px;
+}
+
+#mydiv a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-decoration: none;
+	color: #FFF;
+}
+#mydiv a:hover {
+	color: #FC3;
+}
+
+#mydiv img {
+	height: 15px;
+	margin:auto 5px;
+}
+
+ol {
+	margin: 0.5em 0;
+	padding: 0 1.5em;
+}
+
+.link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#666;
+}
+
+a:link {
+	color: #369;
+	text-decoration: underline;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a:visited {
+	color: #369;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	color: #F16720;
+}
+
+input {
+	background-color: #999;
+	padding: 3px 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-shadow: 0px 0px 3px #000;
+	color: #FFF;
+	border: 2px solid #7C8083;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input:hover {
+	background-color:#FC0;
+	padding:3px 6px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:#333;
+	border:2px solid #7C8083;
+	border-radius:5px;
+	cursor:pointer;
+	text-shadow:none;
+}
+
+/* ~~ this fixed width container surrounds all other divs~~ */
+.container {
+	width: 965px;
+	margin: 0 auto;
+	padding:0;
+}
+
+#head_main {
+	background: url(../tx6/images/tx6_head_main.jpg) no-repeat;
+	text-align: center;
+	width: 965px;
+	height: 105px;
+	margin: 0;
+	box-shadow: 3px 0px 7px #666;
+}
+#head_main p {
+	margin: 0;
+	font-family: 'Droid Serif', serif;
+	font-size: 1.5em;
+	color: #FFF;
+}
+
+#head_main_g7 {
+	background: url(../tx7/images/tx7_head_main.jpg) no-repeat;
+	text-align: center;
+	width: 965px;
+	height: 105px;
+	margin: 0;
+	box-shadow: 3px 0px 7px #666;
+}
+
+#head_main_g8 {
+	background: url(../tx8/images/tx8_head_main.jpg) no-repeat;
+	text-align: center;
+	width: 965px;
+	height: 105px;
+	margin: 0;
+	box-shadow: 3px 0px 7px #666;
+}
+
+
+#upper_nav {
+	background: #3B89C7;
+	overflow: auto;
+	width: 965px;
+	margin: 0;
+	box-shadow: 3px 0px 7px #666;
+}
+
+.under_toc {
+	background: #3B89C7;
+	padding:5px;
+	text-align:center;
+	overflow: auto;
+	font: 14px Arial, Helvetica, sans-serif bold;
+	margin:10px 0;
+	border-radius:5px 0 0 5px;
+}
+
+.g7 {
+	color:#597041 !important;
+}
+
+.g8 {
+	color:#2D80AB !important;
+}
+
+#upper_nav a {
+	color: #FFF;
+	text-decoration: none;
+	text-shadow:-1px -1px 1px rgba(0,0,0,0.5);
+}
+
+#upper_nav a:hover {
+	color: #ffc000;
+	text-decoration: underline;
+}
+
+
+#upper_nav ul {
+	margin: 0;
+	padding: 5px;
+	list-style: none;
+	font: 14px Arial, Helvetica, sans-serif bold;
+	text-align: center;
+}
+#upper_nav ul li {
+	margin: 0 2em;
+	display: inline;
+}
+
+#nav_holder {
+	width: 100%;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	height: 35px;
+	display: table-cell;
+}
+
+#footer {
+	width:100%;
+	height:30px;
+	background: #848383; /* Old browsers */
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzg0ODM4MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjE5JSIgc3RvcC1jb2xvcj0iI2EwYTBhMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+
+background: -moz-linear-gradient(top,  #848383 0%, #a0a0a0 19%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#848383), color-stop(19%,#a0a0a0)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #848383 0%,#a0a0a0 19%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #848383 0%,#a0a0a0 19%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #848383 0%,#a0a0a0 19%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #848383 0%,#a0a0a0 19%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#848383', endColorstr='#a0a0a0',GradientType=0 ); /* IE6-8 */
+
+
+	clear:both;
+}
+
+#footer a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #FFC;
+	text-decoration: underline;
+}
+
+
+#footer ul {
+	margin: 0;
+	padding: 5px;
+	list-style: none;
+	font: 12px Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight:lighter !important;
+}
+#footer ul li {
+	margin: 0 2em;
+	display: inline;
+}
+
+
+.sidebar1 {
+	float: left;
+	width: 160px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+}
+.unit_break {
+	background: #666;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 0.8em;
+	text-align: center;
+	padding: 5px 0;
+}
+.content {
+	margin: 0;
+	padding: 0;
+	background: #FFF;
+	overflow: auto;
+	box-shadow: 3px 3px 7px #666;
+	
+}
+
+/* ~~ miscellaneous float/clear classes ~~ */
+.fltrt {
+	float: right;
+	margin: 15px 0 15px 15px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear: both;
+	line-height: 0px;
+	margin: 15px 0;
+}
+
+.center_block_image {
+	display: inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.border {
+	outline:1px solid #000;	
+}
+
+.white_box_border {
+	border:2px solid black;
+	padding:0.5em;
+	margin:1em 0;
+	background: #FFF;
+}
+
+.drop-shadow {
+	box-shadow: 2px 2px 2px 2px #999;
+}
+
+#side_nav {
+	float: left;
+	width: 150px;
+	margin: 0;
+}
+
+.lesson_sub {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	margin: 0 0 0.5em 0;
+	padding: 0 0 0 1.2em;
+	background: #DD6E5A;
+}
+
+.lesson_sub_g7 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	margin: 0 0 0.5em 0;
+	padding: 0 0 0 1.2em;
+	background: #759E4A;
+}
+
+.lesson_sub_g8 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	color: #FFF;
+	text-align: left;
+	margin: 0 0 0.5em 0;
+	padding: 0 0 0 1.2em;
+	background: #82C0E0;
+}
+
+.nav_list {
+	margin: 2px 0px 10px 5px;
+}
+
+.nav_list li {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:5px 0 2px;
+	line-height:0.8em;
+	border-bottom:1px solid #DD6E5A;
+	padding:0 0 5px 0;
+}
+
+.nav_list_g7 {
+	margin: 2px 0px 10px 5px;
+}
+
+.nav_list_g7 li {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:5px 0 2px;
+	line-height:0.8em;
+	border-bottom:1px solid #759E4A;
+	padding:0 0 5px 0;
+}
+
+.nav_list_g8 {
+	margin: 2px 0px 10px 5px;
+}
+
+.nav_list_g8 li {
+	list-style-type: none;
+	font-family: Arial, Helvetica, sans-serif;
+	margin:5px 0 2px;
+	line-height:0.8em;
+	border-bottom:1px solid #82C0E0;
+	padding:0 0 5px 0;
+}
+
+.nav_5e_title {
+	border-bottom:none !important;
+	padding:0 !important;
+}
+
+.nav_list ul {
+	margin-left: 0px;
+	border-bottom:1px solid #DD6E5A;
+}
+
+.nav_list ul li {
+	margin:0 0 0 -25px !important;
+	border-bottom:none !important;
+
+}
+
+.nav_list_g7 ul {
+	margin-left: 0px;
+	border-bottom:1px solid #759E4A;
+}
+
+.nav_list_g7 ul li {
+	margin:0 0 0 -25px !important;
+	border-bottom:none !important;
+
+}
+
+.nav_list_g8 ul {
+	margin-left: 0px;
+	border-bottom:1px solid #82C0E0;
+}
+
+.nav_list_g8 ul li {
+	margin:0 0 0 -25px !important;
+	border-bottom:none !important;
+
+}
+
+.chapter_name {
+	font-size: 0.8em;
+	font-style: italic;
+	margin:0;
+	color:#FCC0B5;
+	text-shadow: none;	
+}
+
+.chapter_name_g7 {
+	font-size: 0.8em;
+	font-style: italic;
+	margin:0;
+	color:#B5D691;
+	text-shadow: none;	
+}
+
+.chapter_name_g8 {
+	font-size: 0.8em;
+	font-style: italic;
+	margin:0;
+	color:#ACE0F9;
+	text-shadow: none;	
+}
+
+.nav_list a {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+.nav_list a:hover {
+	color: #FC0;
+	text-decoration:underline;
+}
+
+.nav_list_g7 a {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+.nav_list_g7 a:hover {
+	color: #FC0;
+	text-decoration:underline;
+}
+
+.nav_list_g8 a {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	text-decoration:none;
+}
+
+.nav_list_g8 a:hover {
+	color: #FC0;
+	text-decoration:underline;
+}
+
+
+
+td, th {
+	border-style: solid;
+	border-width: 1px;
+}
+table {
+	border-collapse: collapse;
+}
+
+.x2column {
+	padding: 1em;
+}
+
+
+/* Overview page styles ----------------------------------------------- */
+
+.key-questions-box {
+	background-color: rgb(191,217,165);
+	border-radius: 15px;
+	border: 2px solid #306738;
+	width: 425px;
+	margin: 1em 0;
+}
+.lesson_resources {
+	background: url(../images/folder_tab-web.png) top left no-repeat;
+	padding: 50px 0 25px 20px;
+	height: 425px;
+	margin: 1em 0 0 0;
+}
+
+.TG-lesson-resource-table {
+	border-color: #231f20;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 0px;
+	margin-top: 1em;
+	box-shadow: 2px 2px 5px #666;
+	width: 98%;
+}
+
+.TG-lesson-resource-table td {
+	padding: 0.5em;
+	/* [disabled]vertical-align: middle; */
+}
+
+.TEKS-hd {
+	color: #ffffff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bold;
+	margin: 0.7em 0;
+	padding: 0.1em 0;
+	background: #306738;
+	text-align: left;
+	text-indent: 1em;
+}
+
+.TEKS {
+	color: #000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.9em;
+	margin: 0.5em 1em 0.5em 1em;
+	text-align: left;
+	text-decoration: none;
+	text-indent: -0.5em;
+}
+
+.TG-overview-tablerow {
+	color: #999999;
+	font-family: "Myriad Pro Light", sans-serif;
+	font-size: 0.9em;
+	font-weight: 600;
+	line-height:1em;
+	margin: 0 0 0.6em 0;
+	text-align: left;
+}
+
+.TG-overview-2 {
+	color: #a7a9ac;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 1.071;
+	margin: 0;
+	text-align: left;
+	text-indent: 0px;
+	padding: 1em 0 0 0;
+}
+
+/*
+.TG-lesson-resource-table a {
+	line-height: 1.3em;
+}
+*/
+
+.TG-overview-tablerow-bullet {
+	color: #999;
+	font-family: "Myriad Pro Light", sans-serif;
+	font-size: 0.9em;
+	font-weight: 600;
+	margin: -0.1em 0 0.5em 1.5em;
+	text-align: left;
+	text-indent: -0.5em;
+}
+
+/* 5E Lesson page styles ----------------------------------------------- */
+
+
+.TG-inv-table {
+	border-color: #231f20;
+	border-style: solid;
+	border-width: 1px;
+	margin: 1em 0;
+}
+
+.TG-inv-table ol {
+	margin: 0;
+	padding: 0 1.5em;
+}
+
+
+.setup_instructions_col {
+	width:60%;
+}
+
+.materials_col {
+	width:40%;
+}
+
+
+.answer_circle {
+	border-radius: 10px;
+	border:2px solid green;	
+	padding:0.2em 1em;
+}
+					
+.TG-body-table {
+	border-color: #231f20;
+	border-style: solid;
+	border-width: 1px;
+	margin: 1em 0;
+}
+
+.TG-table-title {
+	font: 0.9em Arial, Helvetica, sans-serif;
+	color: #000;	
+	font-weight:bold;
+	text-align:center;
+}
+.TG-table-row {
+	background-color: #ffffff;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+	margin:0;
+}
+.table-row-chap-intro {
+	background-color: #ffffff;
+	padding-bottom: 0px;
+	padding-left: 4px;
+	padding-right: 0px;
+	padding-top: 1em;
+	vertical-align: top;
+}
+.TG-inv-table-cell {
+	padding: 5px;
+	vertical-align: top;
+}
+.TG-inv-table-materials-cell {
+	padding: 5px;
+	vertical-align: top;
+}
+.TG-table-head-cell-lc {
+	background-color: #90a99c;
+	padding: .5em 0.5em 0 0.5em;
+	vertical-align:bottom;
+}
+.resource-table-header-row {
+	background-color: #0082a8 !important;
+	padding: 0;
+	vertical-align: middle;
+}
+.TG-inv-table-header {
+	background-color: #90a99c;
+}
+.Basic-Text-Frame {
+	margin: 0 0 1em 1em;
+}
+.TG-vocab-def {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	line-height: 1.136;
+	margin-bottom: 5px;
+	margin-left: 1em;
+	text-align: left;
+	text-indent: 0px;
+}
+
+.TG-vocab-header {
+	color: #dde4f2;
+	font-family: "Myriad Pro", sans-serif;
+	background: #A7BEDF;
+	font-weight: bold;
+	padding: 5px;
+	margin:0 0 6px 0;
+	text-align: center;
+	text-indent: 0px;
+	letter-spacing: 0.75em;
+}
+.vocab-box {
+	margin: 1em 0;
+	padding:0 0 1em 0;
+	clear:both;
+	background: #d8e7f6; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iI2Q4ZTdmNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #d8e7f6 1%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #d8e7f6), color-stop(100%, #ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #d8e7f6 1%, #ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #d8e7f6 1%, #ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #d8e7f6 1%, #ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #d8e7f6 1%, #ffffff 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e7f6', endColorstr='#ffffff', GradientType=0 ); /* IE6-8 */
+}
+
+.vocab-box-header {
+	margin:0px;
+}
+
+.TG-resource-table-subhd {
+	color: #000000;
+	font-weight: bold;
+	font-family: "Myriad Pro", sans-serif;
+	margin: 0.75em 0 0 0;
+}
+
+.TG-number-list {
+	color: #000000;
+	font-family:"Times New Roman", Times, serif;
+	margin-bottom: 5px;
+	margin-left: 18px;
+	margin-right: 0px;
+	text-align: left;
+}
+.TG-table-row {
+	color: #231f20;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	line-height: 1.182;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+	text-indent: 0px;
+}
+.TG-setup-list {
+	color: #000000;
+	font-family: Times, serif;
+	margin: auto 0 0.5em 0;
+	text-align: left;
+}
+.TG-resource-table-hd {
+	color: #ffffff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.167;
+	text-align: center;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.TG-lesson-hd {
+	color: #90a99c;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: bold;
+	color: #000;
+	line-height: 1;
+	font-size: 1.5em;
+	margin: 0.5em 0 0.5em 0;
+	text-align: left;
+	text-indent: 0px;
+}
+.TG-bodytext-intro {
+	color: #000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 1.167;
+	width: 60%;
+	margin: 0.5em 0;
+	text-align: left;
+	max-width: 475px;
+}
+
+.TG-subhd2 {
+	color: #90a99c;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0 0 0.5em 0;
+	text-align: left;
+}
+
+.blank_line {
+	text-decoration:underline;	
+}
+
+.TG-subhd2-u2 {
+	color: #D07869;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.3em;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0 0 0.5em 0;
+	text-align: left;
+	text-indent: 0px;
+}
+
+.TG-bullet2 {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.9em;
+	line-height: 1.227;
+	margin: 0.5em 0 0 2em;
+	text-align: left;
+	text-indent: -0.5em;
+	max-width:425px;
+}
+.TG-classtime {
+	color: #231f20;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	line-height: 1.125;
+	margin: 0 0 1em 0;
+	text-align: left;
+}
+.TG-bodytext {
+	color: #000000;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 0;
+	text-align: left;
+}
+
+.inline_arrow {
+	display:inline;
+	margin-top:0 !important;
+	margin-right:2px !important;
+	margin-bottom:-2px !important;
+	margin-left:2px !important;
+}
+
+.TG-bodytext-indent {
+	color: #000000;
+	font-family: Times, serif;
+	font-weight:normal;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 1em;
+	text-align: left;
+}
+.TG-subhdblk {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.364;
+	margin: 1em 0 0.2em 0;
+	text-align: left;
+}
+.TG-5e {
+	color: #90a99c;
+	font-family: "Myriad Pro", Arial, sans-serif;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold;
+	margin: 1em 0 0 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+	text-transform: uppercase;
+}
+.TG-subhead-dialog {
+	color: #90a99c;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 1.143;
+	margin:0;
+	text-align: left;
+}
+.TG-dialog {
+	color: #0067ac;
+	font-family: "Myriad Pro", sans-serif;
+	font-style: italic;
+	font-weight:normal;
+	line-height: 1.238;
+	margin:0 0 0.5em 1em;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+}
+.TG-inv-numbered-subhd {
+	color: #000000;
+	font-family: "Arial Narrow", sans-serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 1.077;
+	margin: 1em 0 0.5em 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+}
+.TG-sidebartext {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.95em;
+	font-weight:normal;
+	margin: auto 0 6px 5px;
+	text-align: left;
+}
+.materials {
+	list-style-image: url(../images/check_u1.png);
+	font-family: Arial, sans-serif;
+	font-size: 0.9em;
+	line-height: 1.182;
+	margin: 0 0 0 -10px;
+}
+.TG-materials-list {
+	color: #000000;
+	font-family: Arial, sans-serif;
+	margin: 0 0 7px 1.3em !important;
+	font-size: .9em;
+	text-indent: -1.3em;
+}
+.TG-resource-table-hd-lc {
+	color: #ffffff;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.273;
+	margin: 0 0 5px 0;
+	text-align: center;
+	text-indent: 0px;
+}
+.TG-sidebar-hd {
+	color: #231f20;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.273;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+}
+.TG-sidebar-hd img {
+	width: 70%;
+}
+.sidebar-hd img {
+	width: 70%;
+}
+.TG-chapter-name {
+	color: #231f20;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.2;
+	margin:0;
+	text-align: left;
+	text-indent: 0px;
+}
+.TG-inv-hd {
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: bold;
+	margin: 1em 0 0.5em 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+	font-size: 1.5em;
+}
+
+.sidebar-hd {
+	color: #231f20;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	line-height: 1.167;
+	margin: 0 0 5px 5px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+.red {
+	color:#F00;	
+}
+
+.equation_table {
+	margin: 10px auto;	
+	border-collapse:collapse;
+}
+
+.equation_table td {
+	border: 0;	
+}
+
+.equation_subtitle {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	font-weight:bold;
+	text-align:center;	
+}
+
+.unit-color {
+	color: #90a99c;
+}
+.glossword, .vocab-word-bold {
+	color: #0067ac;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: bold;
+}
+.bold-bullet {
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.bullet {
+	color: #000;
+	font-family: "Myriad Pro", sans-serif;
+	line-height:1.5em;
+	margin: 0 0 0.5em 2em;
+}
+
+.chapter-number {
+	color: #ffffff;
+	font-family: "HelveticaNeue Condensed", sans-serif;
+	font-size: 50px;
+	font-style: normal;
+	font-weight: bold;
+}
+.emphasis {
+	font-style: italic;
+	font-weight: normal;
+}
+
+.equation_bold, .equation-bold {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;	
+}
+
+.inv-no {
+	color: #90a99c;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bolder;
+}
+.check-mark {
+	color: #6f983e;
+	font-family: "Zapf Dingbats", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+}
+.TG-classtime-caps {
+	color: #58595b;
+	font-family: "Myriad Pro", sans-serif;
+	font-style: italic;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.TG-lesson-hd-color {
+	color: #90a99c;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+
+.TG-lesson-hd-color-u2 {
+	color: #D07869;
+	font-family: "Myriad Pro", sans-serif;
+	font-weight: bold;
+	margin: 0;
+}
+
+.TG-overview-tablerow-color {
+	color: #231f20;
+	font-style: normal;
+	font-weight: normal;
+}
+.black-bold {
+	color: #231f20;
+	font-style: normal;
+	font-weight: bold;
+}
+.bold-emphasis {
+	font-style: italic;
+	font-weight: bold;
+}
+.teach-tip-icon /* teach tip icon */ {
+	float: left;
+	margin: 0 25px 10px -20px !important;
+	width: 80px;
+}
+
+.bold-green-X {
+	color:#3C0;	
+}
+
+.vocab_strategy_box, .vocab-strategy-box {
+	border-radius: 15px;
+	background:#E3F0FA;
+	padding: 1em;
+	margin:1em 0;
+}
+
+.vocab-strategy-icon {
+	margin: 15px 0;
+}
+
+.journal-box {
+	border-radius: 15px;
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiNGRhZjQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #ffffff 0%, #b4daf4 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #b4daf4)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%, #b4daf4 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%, #b4daf4 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%, #b4daf4 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%, #b4daf4 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#b4daf4', GradientType=0 ); /* IE6-8 */
+	
+	padding: 1em;
+	margin: 1em;
+	float: right;
+	width: 325px;
+}
+.journal-box img {
+	margin: 15px;
+}
+
+.safety-box {
+	border:2px solid red;
+	padding: 0.5em 1em;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+		
+	background: #ffd400; /* Old browsers */
+
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZDQwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmOTY4MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+background: -moz-linear-gradient(top,  #ffd400 0%, #f96800 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd400), color-stop(100%,#f96800)); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(top,  #ffd400 0%,#f96800 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(top,  #ffd400 0%,#f96800 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(top,  #ffd400 0%,#f96800 100%); /* IE10+ */
+
+background: linear-gradient(to bottom,  #ffd400 0%,#f96800 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd400', endColorstr='#f96800',GradientType=0 ); /* IE6-8 */
+
+}
+
+.safety-table-row {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+}
+
+.inv_data_answers {
+	background: #E4E8E5;
+	padding: 1em;
+	margin: 1em -1em;
+}
+
+.inv_data_answers table {
+	width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+}
+
+.inv_data_answers img {
+	margin: 15px;
+}
+
+.subhead-icon {
+	width: 70px;
+}
+.subhead-icon img {
+	float: left;
+	margin: -5px 15px 0 0;
+	width: 70px;
+}
+.TEK-intext-icon {
+	height: 1em;
+	margin: 0 0.5em 0 0;
+}
+.TG-letter-list {
+	font-family: Times, serif;
+	font-weight: normal;
+	list-style: lower-alpha;
+	margin: 0.5em 0 0 1em;
+}
+
+.TG-numbered-list {
+	margin: 0.5em 0 0 1em;	
+}
+
+.TG-numbered-list li {
+	margin: 0.3em 0;	
+}
+
+/* ANSWER KEY Styles --------------------------------------------- */
+
+.assess-text {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 1em;
+
+}
+
+.Assess-head {
+	color:#231f20;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	margin: 0 0 0.5em 0;
+}
+
+.assess-lesson-number {
+	color: #90a99c;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1.208;
+	margin-bottom: 0.5em;
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: left;
+	text-indent: 1px;
+}
+
+.assess-quest-no-number {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	line-height:1.3em;
+	text-align:left;
+	margin: 0 0 0.5em 2em;
+	list-style-type:none;
+}
+
+.assess-letteredlist {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	line-height:1.3em;
+	text-align:left;
+	margin: 0 0 1em;
+}
+
+.assess-letteredlist li {
+	line-height:1.3em;
+	margin: 0.5em 0 0 2em;
+	text-align:left;
+	list-style:lower-alpha;
+}
+
+.assess-quest {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin: 0 0 0.5em 1em;
+}
+
+.assess-quest li {
+	margin-bottom: 5px;
+	margin: 0.5em 0 0 2em;
+}
+
+.assess-subhead {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 1.286;
+	margin: 0 0 4px 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+}
+
+.bold-bullet {
+	font-size:11px;
+	font-weight:bold;
+}
+
+.superscript {
+	vertical-align: super;
+	font-size:xx-small;
+}
+
+.subscript {
+	vertical-align: sub;
+	font-size:xx-small;
+}
+
+.photo_caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:0.7em;
+	font-style:italic;
+	text-align:right;
+	margin:0;	
+}
+
+
+
+/* UNIT colors */
+
+.u1 {
+	color: #90a99c;
+;
+}
+
+.u2 {
+	color: #D06163;
+}
+
+.u2_bg {
+	background-color: #D06163;
+}
+
+.u2_data_bg {
+	background-color:#F1D9D3;	
+}
+
+.u3 {
+	color:#6990B1;	
+}
+
+.u3_bg {
+	background-color:#6990B1;	
+}
+
+.u3_data_bg {
+	background-color:#D8DFE8;	
+}
+
+.u4 {
+	color:#E7985C;	
+}
+
+.u4_bg {
+	background-color:#E7985C;	
+}
+
+.u4_data_bg {
+	background-color:#F9E7D6;	
+}
+
+.u5 {
+	color:#9E6487;	
+}
+
+.u5_bg {
+	background-color:#9E6487;	
+}
+
+.u5_data_bg {
+	background-color:#E2D5DD;	
+}
+
+/* Video and animation styles ------------------------------------------ */
+
+#flash_movie {
+	width:480px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+	margin: 0 auto;
+}
+
+#swf_container {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+#top_gap {
+	height:25px;
+}
+
+#flashContent {
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+
+}
+
+/* GRADE colors */
+
+.g7_bg {
+	background: #4E6D2E;	
+}
+
+/* Safety Styles */
+
+.TX-safety-hd {
+	color: #000;
+	font-family: "Myriad Pro", sans-serif;
+	font-style: italic;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 0;
+	text-align: center;
+}
+
+.TX-safety-hd-small {
+	color: #000;
+	font-family: "Myriad Pro", sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 0 1em 0;
+	text-align: center;
+}
+
+.safety-intro {
+	color: #000000;
+	font-family: "Myriad Pro Light", sans-serif;
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+	margin: 1.5em 0 0.75em 0;
+}
+
+.TG-numerals-list {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	list-style-type:lower-roman;
+	margin:-10px 0 1em 0;	
+}
+
+.TG-numerals-list li {
+	margin:0 0 0.4em 2.4em !important;
+}
+
+.safety-letteredlist {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	list-style-type:lower-alpha;
+	margin:-10px 0 1em 0;
+}
+
+.safety-letteredlist li {
+	margin:0 0 0.4em 1em !important;
+}
+
+.safety-numberedlist {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size: 1em;
+	margin:0;
+}
+
+.safety-numberedlist li {
+	margin: 0 0 20px 18px;
+}
+
+.safety-text {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	line-height:1.3em;
+	font-weight:normal;
+	margin:0 0 0.5em 0;
+}
+
+.safety-table {
+	border-color:#000000;
+	border-collapse:collapse;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+
+.safety-table td {
+	padding:0.5em;
+}
+
+.safety_desc {
+
+}
+
+.safety_icon {
+	text-align:center;
+	display:inline-block;
+	background:#666;
+}
+
+.cell-style-override-1 {
+	background:#FDF1D4;
+}
+
+.read-table {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	padding: 0.5em;
+	margin: 15px;
+	width: 95%;
+	border: 1px solid #000;
+	background: #FDEDC0;
+}
+
+.read-table th {
+	border: 1px solid #000;
+	font-weight: bold;
+	background: #999;
+	color: #FFF;
+}
+
+.read-table tr:nth-of-type(2n + 2) {
+	background: #FEF7E6 !important;
+}
+
+.read-table td {
+	padding: 5px 0 5px 5px;
+}
+
+.table-cell-white {
+	background: #FFF;	
+}
+
+/* Credit styles */
+
+
+.credit-name-title {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	margin:1em 0 0.1em 0;
+}
+
+.credit-education {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.9em;
+	font-style: italic;
+	margin:0.1em 0 0.5em 0;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+}
+.credit-descrip {
+	color: #000000;
+	font-family: "Myriad Pro", sans-serif;
+	font-size: 0.9em;
+	line-height: 1.2;
+	margin: 0 0 0.5em 0;
+}
+.credit-subhd2 {
+	color: #b22f16;
+	font-family: "Myriad Pro Light", sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	margin:1em 0 0.5em 0;
+}
+.credit-content-description {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	margin: 0.2em 0 0 0;
+}
+
+.credit-content-name-title {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1.1em;
+	margin: 1em 0 0 0;
+	font-weight:bold;
+}
+
+p.TG-ELL-subhead {
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1.5em;
+	font-weight:bold;
+	line-height:1.067;
+	margin-bottom:3px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+
+table.TG-ELL-table {
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	margin-bottom:-4px;
+	margin-top:4px;
+}
+
+td.ELL-header-row {
+	background-color:#6f8fb1;
+	padding-bottom:4px;
+	padding-right:4px;
+}
+
+p.Gloss-alphabet {
+	color:#000000;
+	font-family:"Times New Roman", serif;
+	font-size:20px;
+	font-weight:bold;
+	line-height:0.65;
+	margin-bottom:9px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0px;
+}
+
+p.TOC-Title {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#0072bc;
+	font-family:"Times New Roman", serif;
+	font-size:30px;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.2;
+	margin-bottom:18px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:left;
+	text-decoration:none;
+	text-indent:0px;
+}
+
+p.table-rowLab {
+	-epub-hyphens:none;
+	-epub-ruby-position:over;
+	color:#000000;
+	font-family:"Myriad Pro", sans-serif;
+	font-size:1em;
+	margin-bottom:0px;
+	margin-left:5px;
+	margin-right:0px;
+	text-indent:0px;
+}
+
+p.inv-table-row-bg2 {
+	color:#000000;
+	font-family:"Arial Narrow (TT) Bold", sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	line-height:1.083;
+	margin-bottom:5px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	text-decoration:none;
+	text-indent:0px;
+}
+
+p.inv-table-hd2 {
+	color:#ffffff;
+	font-family:"Arial Narrow (TT) Bold", sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	margin:0;
+	text-align:center;
+}
+
+.equipment_table td {
+	padding:5px;	
+	vertical-align:middle;
+}
+
+.equipment_table img {
+	margin:0 auto;
+}
+
+.ak_vocab_table {
+	border-collapse:collapse;
+	margin:0 0 1em 0;
+}
+
+.ak_vocab_table td {
+	border:0;
+	vertical-align:top;
+	background:#FFF !important;
+}
+
+.blue-cell {
+	background-color: #B4DAF4;	
+}
+
+/* Animations: */
+
+video {
+	margin-top:25px;
+	width:720px;	
+	height:576px;
+}
+
+
+
