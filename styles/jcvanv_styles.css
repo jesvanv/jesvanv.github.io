@@ -1,13 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@import url(http://fonts.googleapis.com/css?family=Oswald:light,normal,bold);
+@import url('https://fonts.googleapis.com/css?family=Oswald:light,normal,bold');
 
-@import url(http://fonts.googleapis.com/css?family=Oswald:light,normal,bold);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url('https://fonts.googleapis.com/css?family=Oswald:light,normal,bold');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
 
-@import url(http://fonts.googleapis.com/css?family=Anton);
+ @import url('https://fonts.googleapis.com/css?family=Anton');
 
 
 /* ------------------- Universals ------------------- */
@@ -20,11 +20,11 @@ body {
     min-height: 400px;
 	margin:0;
 	overflow-x:hidden;
-	overflow-y:auto;    
+	overflow-y:auto;
 }
 
 img {
-	width:100%;	
+	width:100%;
 }
 
 a {
@@ -43,7 +43,7 @@ a:hover {
 /* ------------------- Main elements ------------------- */
 
 
-#gallery {	
+#gallery {
 	padding:10px 10px 0 10px;
 	border-top-right-radius:15px;
 	border-top-left-radius:15px;
@@ -52,7 +52,7 @@ a:hover {
 	min-height: 400px;
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 73%, rgba(0,0,0,0) 100%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(73%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 73%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */	
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 73%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(top,  rgba(0,0,0,0.65) 73%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.65) 73%,rgba(0,0,0,0) 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 73%,rgba(0,0,0,0) 100%); /* W3C */
@@ -75,19 +75,19 @@ a:hover {
     from {
         opacity: 1;
     }
-    
+
     25% {
         opacity: 0;
     }
-    
+
     50% {
         opacity: 1;
     }
-    
+
     75% {
         opacity: 0;
     }
-    
+
     to {
         opacity: 1;
     }
@@ -126,7 +126,7 @@ a:hover {
 .bottomBanner {
 	width:1355px;
 	height:55px;
-	padding-top:0px; 
+	padding-top:0px;
 	position:relative;
 	clear:both;
 	margin:0 auto;
@@ -139,7 +139,7 @@ a:hover {
 
 .name {
 	font-family: "Anton", sans-serif;
-	text-shadow:2px 2px 2px #333; 
+	text-shadow:2px 2px 2px #333;
 	font-weight:normal;
 	font-size:2.25em;
 	color:#FFC511;
@@ -152,7 +152,7 @@ a:hover {
 }
 
 .firstname {
-	opacity:0;	
+	opacity:0;
 }
 
 .lastname {
@@ -179,7 +179,7 @@ a:hover {
 }
 
 .categoryOn {
-	color:#FC0;	
+	color:#FC0;
 }
 
 .categoryOn:hover {
@@ -203,7 +203,7 @@ a:hover {
 }
 
 .bullet {
-	color:#69C;	
+	color:#69C;
 }
 
 .owl-numbers {
@@ -226,7 +226,7 @@ a:hover {
 
 .item { width: 185px; margin:0 0 10px 0; padding:0; border:0 }
 .item:hover {
-	box-shadow: 0px 0px 6px 3px /*#3FF*/ #69C;	
+	box-shadow: 0px 0px 6px 3px /*#3FF*/ #69C;
 }
 .item.w2 { width: 380px; margin:0 0 10px 0; padding:0 }
 .item.w3 { width: 42%; }
@@ -246,7 +246,7 @@ a:hover {
 .button_holder {
 	clear:both;
 	margin:0 0 15px 0;
-}	
+}
 
 
 /* ------------------- OWL elements ------------------- */
@@ -287,7 +287,7 @@ a:hover {
 	-o-transition: height 500ms ease-in-out;
 	transition: height 500ms ease-in-out;
 }
-	
+
 .owl-carousel .owl-item{
 	float: left;
 }
@@ -306,7 +306,7 @@ a:hover {
 }
 
 /* mouse grab icon */
-.grabbing { 
+.grabbing {
     cursor:url(images/grabbing.png) 8 8, move;
 }
 
@@ -329,12 +329,12 @@ position: absolute;
 	filter: Alpha(Opacity=100);/*IE7 fix*/
 	opacity: 0.5;
 }
- 
+
 .owl-theme .owl-controls .owl-buttons .owl-prev{
 left: -22px;
 top: 185px;
 }
- 
+
 .owl-theme .owl-controls .owl-buttons .owl-next{
 right: -22px;
 top: 185px;
@@ -380,7 +380,7 @@ top: 185px;
 	line-height: 0;
     font-family: "Anton";
 	}
-	
+
 #hoverNav{
 	position: absolute;
 	top: 0;
@@ -410,7 +410,7 @@ top: 185px;
 	margin: 0 auto;
 	line-height: 1.4em;
 	overflow: auto;
-	width: 100%;	
+	width: 100%;
 	padding: 10px 0;
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
@@ -434,13 +434,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
 	}
 
 #imageData{	padding:0 10px; color: #666; }
-#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }
 #imageData #caption{ font-family: "Oswald", sans-serif; font-weight: normal; color:#fff;}
-#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
-#imageData #bottomNavClose{ width: 23px;  padding-bottom: 0.7em; padding-top:10px; float: right;	}	
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}
+#imageData #bottomNavClose{ width: 23px;  padding-bottom: 0.7em; padding-top:10px; float: right;	}
 
 /* #bottomNavClose{position:absolute; top: -10px; left:225px;} */
-		
+
 #overlay{
 	position:fixed !important;
 	top: 0;
@@ -449,7 +449,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
 	width: 100% !important;
 	height: 100% !important;
 	}
-	
+
 .clickText {
     animation-name: clickPulse;
     animation-duration: 10s;
@@ -470,31 +470,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
         background-color: transparent;
         color:#8FABC6;
     }
-    
+
     25% {
         background-color: transparent;
         color:#8FABC6;
     }
-    
+
     30% {
         background-color: #8FABC6;
         color: black;
     }
-    
+
     70% {
         background-color: #8FABC6;
         color: black;
     }
-    
+
     75% {
         background-color: transparent;
         color:#8FABC6;
     }
-    
+
     to {
         background-color: transparent;
         color:#8FABC6;
-    } 
+    }
 }
 
 .clickText:hover {
@@ -505,7 +505,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
 }
 
 .clickText:after {
-  
+
 }
 
 .titleHolder {
@@ -573,24 +573,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#757575', end
 /* TABLETS =================================================================================== */
 
 @media all and (min-device-width:600px) and (max-device-width:1200px) and (orientation: landscape) {
-    
+
 img {
     width:100%;
-}    
-    
+}
+
 .bottomBanner {
-	width:900px; 
+	width:900px;
 	height:55px;
-	padding-top:0px; 
+	padding-top:0px;
 	position:relative;
 	clear:both;
 	margin:0 auto;
 	overflow:visible;
 }
-    
+
     .name {
 	font-family: "Anton", sans-serif;
-	text-shadow:2px 2px 2px #333; 
+	text-shadow:2px 2px 2px #333;
 	font-weight:normal;
 	font-size:2.25em;
 	color:#FFC511;
@@ -628,9 +628,9 @@ img {
 
 .item { max-width: 120px !important; margin:0 0 8px 0; padding:0; cursor: zoom-in; }
 .item.w2 { width: 247px !important; max-width: 305px !important; margin:0 0 8px 0; padding:0}
-	
+
 body, html  {
-	max-width:1100px !important;	
+	max-width:1100px !important;
 }
 
 
@@ -639,12 +639,12 @@ body, html  {
 
 
 @media all and (max-device-width: 800px) and (min-device-width:550px) and (orientation: portrait) {
-    
 
-    
+
+
 .bottomBanner {
-	width:525px; 
-	padding:0; 
+	width:525px;
+	padding:0;
 	top:0;
 	position:absolute;
 	text-align:center;
@@ -658,12 +658,12 @@ body, html  {
 }
 
 .white_rule {
-	opacity:0;	
+	opacity:0;
 }
 
 
 .name {
-	text-shadow:2px 2px 2px #333; 
+	text-shadow:2px 2px 2px #333;
     font-family: "Anton", sans-serif;
 	font-weight:normal;
 	font-size:2.2em;
@@ -677,7 +677,7 @@ body, html  {
 }
 
 .firstname {
-	opacity:0;	
+	opacity:0;
 }
 
 .lastname {
@@ -700,7 +700,7 @@ body, html  {
 	width:100%;
     transition: color 1s;
 }
-    
+
 
 
 #gallery {
@@ -719,9 +719,9 @@ body, html  {
 
 .item { max-width: 166px !important; margin:0 0 8px 0; padding:0; cursor: zoom-in; }
 .item.w2 { width: 342px !important; max-width: 342px !important; margin:0 0 8px 0; padding:0}
-	
+
 body, html  {
-	max-width:600px !important;	
+	max-width:600px !important;
 }
 
 
@@ -739,10 +739,10 @@ body, html  {
 /* PHONES ===================================================================================== */
 
 @media all and (min-device-width: 150px) and (max-device-width: 500px) {
-	
+
 .bottomBanner {
-	width:320px; 
-	padding:0; 
+	width:320px;
+	padding:0;
 	text-align: center;
 	top:0;
 	position:absolute;
@@ -756,12 +756,12 @@ body, html  {
 }
 
 .white_rule {
-	opacity:0;	
+	opacity:0;
 }
 
 
 .name {
-	text-shadow:2px 2px 2px #333; 
+	text-shadow:2px 2px 2px #333;
 	font-family: "Anton", sans-serif;
 	font-weight:normal;
 	font-size:1.7em;
@@ -776,7 +776,7 @@ body, html  {
 }
 
 .firstname {
-	opacity:0;	
+	opacity:0;
 }
 
 .lastname {
@@ -815,7 +815,7 @@ body, html  {
 
 .item { width: 320px !important; margin:0 0 10px 0; padding:0; clear:both; }
 .item.w2 { width: 320px !important; margin:0 0 10px 0; padding:0; clear:both; }
-	
+
 body, html  {
     zoom:reset;
 	max-width:360px !important;
