@@ -1,0 +1,43 @@
+#webBox {
+    a {
+        background-color: #336699;
+        &.item01 {
+            background-image: url('/images/vm_screen.jpg');
+            background-position: 38% 0;
+        }
+        &.item02 {
+            background-image: url('/images/teacher-dash.jpg');
+        }
+        &.item03 {
+            background-image: url('/images/hollowaysite.jpg');
+        }
+        &.item04 {
+            background-image: url('/images/cff_winter_email.jpg');
+            background-size: 480%;
+            background-position: -30px -140px;
+        }
+        &.item05 {
+            background-image: url('/images/tx_tg_full.jpg');
+            background-position: 90% 0;
+        }
+        &.item06 {
+            background-image: url('/images/yb_email_clothing.jpg');
+        }
+        &.item07 {
+            background-image: url('/images/magicsite.jpg');
+            background-position: 18% 0;
+        }
+        &.item08 {
+            background-image: url('/images/YB_email_paw_click.jpg');
+        }
+        &.item09 {
+            background-image: url('/images/yb_lovedones_email_full.jpg');
+            background-position: 70% 0;
+        }
+        &.item10 {
+            background-image: url('/images/cff_email_winter_fun.jpg');
+            background-size: 480%;
+            background-position: -30px -140px;
+        }
+    }
+}

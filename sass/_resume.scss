@@ -1,0 +1,53 @@
+.resume {
+  padding: 2% 0;
+    .container {
+        width: 60%;
+        margin: 1em auto;
+        padding: 1em 2em;
+        background: #FFFFFF;
+        box-shadow: 3px 3px 6px #000000;
+        .name {
+            position: relative;
+            text-align: center;
+            color: $blue;
+            background-color: transparent;
+            border-bottom: 2px solid $blue;
+            height: auto;
+            padding: 3% 0;
+        }
+        section {
+            font: 1em 'Helvetica Neue', Helvetica, sans-serif;
+            color: #444444;
+            h3 {
+                font: 1.3em 'Anton', sans-serif;
+                color: #666666;
+                letter-spacing: 0.05em;
+                margin: 0.5em 0 0;
+            }
+            p {
+                margin: 0 0 1em;
+                line-height: 1.5em;
+                &.job-dates, &.job-title {
+                  font-weight: bold;
+                  margin-bottom: 0;
+                }
+                &.job-title {
+                  margin-top: 0;
+                  margin-bottom: 1em;
+                }
+            }
+            ul {
+                li {
+                    margin: 0.3em 0;
+                    &:last-of-type {
+                        margin-bottom: 2em;
+                    }
+                }
+            }
+        }
+        .references {
+          font: italic 0.9em 'Helvetica Neue', Helvetica, sans-serif;
+          color: #666666;
+        }
+    }
+}

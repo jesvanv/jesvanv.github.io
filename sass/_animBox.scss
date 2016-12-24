@@ -1,0 +1,48 @@
+#animationBox {
+    a {
+        background-color: #753399;
+        &.item01 {
+            background-image: url('/images/topo-full.jpg');
+        }
+        &.item02 {
+            background-image: url('/images/car-accel-full.jpg');
+        }
+        &.item03 {
+            background-image: url('/images/foodweb-full.jpg');
+        }
+        &.item04 {
+            background-image: url('/images/ear-full.jpg');
+        }
+        &.item05 {
+            background-image: url('/images/maps-full.jpg');
+        }
+        &.item06 {
+            background-image: url('/images/heart-full.jpg');
+        }
+        &.item07 {
+            background-image: url('/images/nerve-full.jpg');
+        }
+        &.item08 {
+            background-image: url('/images/moonphases-full.jpg');
+        }
+        &.item09 {
+            background-image: url('/images/finches-full.jpg');
+        }
+        &.item10 {
+            background-image: url('/images/actreact-full.jpg');
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+  #animationBox {
+      a {
+          &.item02 {
+            background-position: 0 83%;
+          }
+          &.item09 {
+            background-position: 0 26%;
+          }
+        }
+  }
+}

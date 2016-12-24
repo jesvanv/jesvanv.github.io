@@ -1,25 +1,109 @@
 
 function startShow() {
 
-    "use strict";
-
     var width         = $(window).width(),
+        name          = $('.firstname'),
+        gallery       = $('#gallery'),
+        galleryHeight = $('#gallery').css('height'),
         webBox        = $('#webBox'),
         designBox     = $('#designBox'),
         illoBox       = $('#illoBox'),
         animationBox  = $('#animationBox'),
         thumbsHolder  = $('.thumbsHolder'),
+        thumbLink     = $('.thumbsHolder > a'),
+        close         = $('.close'),
+        closeTopMargin  = $('.close').css('marginTop'),
+        catLink       = $('.category-titles a'),
+        footerP       = $('footer').find('p'),
+        blueColor     = '#336699',
+        brownColor    = '#996A33',
+        purpleColor   = '#753399',
+        redColor      = '#993333';
 
-        catLink       = $('.category-title a');
 
-        $(catLink).on('click', function(e) {
+        $(catLink).on('click tap', function(e) {
           e.preventDefault();
-          thumbsHolder.fadeOut();
-          $('#' + this.name + 'Box').fadeIn();
-        })
+          self = this;
+          if($(window).width() > 767) {
+          $(gallery).animate({ height: '70vh' });
+          $('#' + self.name + 'Box').animate({
+              top: 0,
+              height: '100%'
+          });
+          $('body').animate({ padding: '0' });
+        } else {
+          $(gallery).animate({ height: '75vh' });
+          $('#' + self.name + 'Box').animate({
+              top: 0,
+              height: '100%'
+          });
+        }
+          if(self.name == "web") {
+              $(gallery).css({ 'borderColor': blueColor });
+              $(close).css({ 'backgroundColor': blueColor });
+              $(name).css({ 'color': blueColor });
+            }
+          if(self.name == "design") {
+              $(gallery).css({ 'borderColor': brownColor });
+              $(close).css({ 'backgroundColor': brownColor });
+              $(name).css({ 'color': brownColor });
+            }
+          if(self.name == "animation") {
+              $(gallery).css({ 'borderColor': purpleColor });
+              $(close).css({ 'backgroundColor': purpleColor });
+              $(name).css({ 'color': purpleColor });
+            }
+          if(self.name == "illo") {
+              $(gallery).css({ 'borderColor': redColor });
+              $(close).css({ 'backgroundColor': redColor });
+              $(name).css({ 'color': redColor });
+            }
+            if($(window).width() > 767) {
+              $(close).animate({ marginTop: '0' });
+            } else {
+              $(close).animate({ marginTop: '10.5vh' });
+              $('footer').find('p').animate({ marginTop: '0.7em' });
+            }
+        });
 
+        $(close).on('click', function() {
+          self = this;
+          resetColors();
+          $(thumbsHolder).animate({
+            top: '100%',
+            height: '70vh'
+          }, {queue: false});
+          $(self).animate({ marginTop: closeTopMargin });
+          $('footer .p').animate({ margin: '0' });
+          $(gallery).animate({ height: galleryHeight });
+          if($(window).width() > 767) {
+            $('body').animate({ padding: '5% 0' });
+          } else {
+            $(footerP).animate({
+              marginTop: '2.5em'
+            });
+          }
+        });
+
+        function resetColors(color = '#A4E449') {
+          $(gallery).css({ 'borderColor': color });
+          $(close).css({ 'backgroundColor': color });
+          $(name).css({ 'color': color });
+        }
+
+        $('#email').html('<a href="mailto:' + 'jesvanv@comcast.net">Contact</a>');
+
+        //Lock body when popup is open
+      /*  $(thumbLink).on('click', function() {
+            $(body).addClass('body-lock');
+          });
+
+        $('.mfp-close').on('click', function() {
+          if($('body').hasClass('body-lock')){
+            $(body).removeClass('body-lock');
+          }
+        }); */
 //Initiate Magnific Popups: -------------------------------------------
-
     $(".image_popup").magnificPopup({
         type: "image",
         tLoading: "Loading..."
@@ -29,8 +113,8 @@ function startShow() {
         type: 'iframe',
         iframe: {
             markup: '<div style ="max-width:550px; min-height: 400px; text-align:center; position:relative; margin:0 auto">' +
-                        '<div class="mfp-iframe-scaler" style ="max-width:550px; max-height:400px">' +
-                            '<div class="mfp-close" ></div>' +
+                        '<div class="mfp-close" ></div>' +
+                        '<div class="mfp-iframe-scaler" style ="width: 550px; max-width:550px; max-height:400px">' +
                                 '<iframe class="mfp-iframe" style="max-width:550px !important; max-height:400px;" frameborder="0" allowfullscreen></iframe>' +
                             '<div class="mfp-title" style="margin-top:5em">Some caption</div>' + '</div>' +
                     '</div>'
@@ -57,7 +141,7 @@ function startShow() {
         type: 'iframe',
         tLoading: "Loading...",
         iframe: {
-            markup: '<div style ="max-width:515px; min-height: 400px; text-align:center; position:relative; margin:0 auto">' +
+            markup: '<div style ="width: 80vw; max-width:515px; min-height: 400px; text-align:center; position:relative; margin:0 auto">' +
                         '<div class="mfp-iframe-scaler" style ="max-width:515px">' +
                             '<div class="mfp-close" ></div>' +
                                 '<iframe class="mfp-iframe" style="max-width:515px !important;" frameborder="0" allowfullscreen></iframe>' +
@@ -87,7 +171,7 @@ function startShow() {
         type: 'iframe',
         tLoading: 'Loading...',
         iframe: {
-            markup: '<div style ="max-width:530px; min-height: 405px; text-align:center; position:relative; margin:0 auto">' +
+            markup: '<div style ="width: 50vw; max-width:530px; min-height: 405px; text-align:center; position:relative; margin:0 auto">' +
                         '<div class="mfp-iframe-scaler" style ="max-width:530px; max-height:405px; overflow:hidden !important">' +
                             '<div class="mfp-close" ></div>' +
                                 '<iframe class="mfp-iframe" style="max-width:515px !important; max-height:405px; overflow-y:hidden !important" frameborder="0" allowfullscreen></iframe>' +
@@ -112,6 +196,40 @@ function startShow() {
 
     });
 
+     $('#webBox .image_popup.item02').magnificPopup({
+        type: 'image',
+        items: [
+          { src: '/images/teacher-dash.jpg' },
+          { src: '/images/teacher-project-overview.jpg' },
+          { src: '/images/teacher-projects.jpg' },
+          { src: '/images/teacher-thinkspace.jpg' },
+          { src: '/images/teacher-group-manager.jpg' }
+      ],
+      gallery: {
+        enabled: true,
+        tcounter: ''
+      },
+      image: {
+      markup: '<div class="mfp-figure">' +
+                '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' +
+                '<div class="mfp-img"></div>' +
+                '<div class="mfp-bottom-bar">' +
+                  '<div class="mfp-title"></div>' +
+                  '<div class="description">This is conceptual UI developed based on input and feedback from team members before the start of code development. Using Adobe Illustrator and Proto.io.</div>'+
+                '</div>' +
+              '</div>'
+        },
+          titleSrc: 'title',
+          callbacks: {
+
+    buildControls: function() {
+      // re-appends controls inside the main container
+      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+    }
+
+  }
+    });
+
     $('.iframe_foodweb').magnificPopup({
         type: 'iframe',
         iframe: {
@@ -119,7 +237,9 @@ function startShow() {
                         '<div class="mfp-iframe-scaler" style ="width:550px; height:400px">' +
                             '<div class="mfp-close" ></div>' +
                                 '<iframe class="mfp-iframe" style="width:550px !important; height:400px;" frameborder="0" allowfullscreen></iframe>' +
-                            '<div class="mfp-title" style="margin-top:5em">Some caption</div>' + '</div>' +
+                            '<div class="mfp-title" style="margin-top:5em">Some caption</div>'
+                            +  '<div class="description" style="margin-top:6em">Animation to illustrate how food webs in nature. Used Flash with Actionscript to create a drag-and-drop game to help teach these concepts.</div>' +
+                        '</div>' +
                     '</div>'
         },
 
@@ -143,10 +263,9 @@ function startShow() {
         $('.iframe_acceleration').magnificPopup({
         type: 'iframe',
         iframe: {
-            markup: '<div style ="max-width:700px; min-height: 393px; height:393px; text-align:center; position:relative; margin:0 auto">' +
-                        '<div class="mfp-iframe-scaler" style ="max-width:700px; max-height:393px">' +
-                            '<div class="mfp-close" ></div>' +
-                                '<iframe class="mfp-iframe" style="max-width:711px !important; max-height:393px;" frameborder="0" allowfullscreen></iframe>' +
+            markup: '<div style =" width: 50vw; max-width:700px; min-height: 400px; height:400px; text-align:center; position:relative; margin:0 auto">' +
+                        '<div class="mfp-close" ></div>' + '<div class="mfp-iframe-scaler" style ="max-width:700px; max-height:400px">' +
+                                '<iframe class="mfp-iframe" style="max-width:711px !important; max-height:400px;" frameborder="0" allowfullscreen></iframe>' +
                             '<div class="mfp-title" style="margin-top:0em">Some caption</div>' + '</div>' +
                     '</div>'
         },
@@ -211,4 +330,6 @@ function startShow() {
             }
         }
     });
+
+
 }

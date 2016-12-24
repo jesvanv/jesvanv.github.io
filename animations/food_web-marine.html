@@ -1,9 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-    
 <head>
-<title>Animation</title>
+<title>Animation | Marine Food Web</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="/styles/jcvanv_styles.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 		<script type="text/javascript" src="../scripts/swfobject.js"></script>
 <script type="text/javascript">
 (function(){
@@ -44,15 +45,23 @@
    <style>
        @import url(http://fonts.googleapis.com/css?family=Anton);
        .noFlashMessage {font-family:'Anton', san-serif; font-size: 0.8em; width:200px; display: block; margin:50px auto; text-align: center; color:#456}
-</style> 
+</style>
      <link href="../styles/jcvanv_styles.css" rel="stylesheet" type="text/css" />
-
+     <meta name="viewport" content="width=device-width" />
 </head>
-    
-<body style="text-align:left; margin:0">
+
+<body style="text-align:left; margin:0; background: #FFFFFF; height: 100%;;">
+  <div id="closer">x</div>
 		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
 		<div id="flashContent">
+      <iframe src="/animations/food_web_marine_cdn.html" style="width: 100vw; height: 100vh"></iframe>
          <!-- <p class="noFlashMessage">You will need the latest version of <a href="https://get.adobe.com/flashplayer/" target="_blank">Flash</a> or an <a href="http://html5test.com/">HTML 5 compatible browser</a> to view this animation.</p> -->
     </div>
 </body>
+<script>
+  $('#closer').on('click', function() {
+   window.location = 'http://jcvanv.localhost';
+  })
+</script>
+
 </html>

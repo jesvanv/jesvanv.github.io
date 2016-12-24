@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 14.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="792px" height="612px" viewBox="-87.767 -91.964 792 612"
+	 style="enable-background:new -87.767 -91.964 792 612;" xml:space="preserve">
+<defs>
+	<style>
+		circle, rect, polygon {
+		fill: none;
+		stroke-width: 5;
+		stroke: #A4E449;
+		}
+	</style>
+</defs>
+<circle cx="308.183" cy="234.719" r="189.369"/>
+<rect x="0.671" y="61.462" width="615.023" height="346.514"/>
+<polygon points="437.79,51.188 178.577,51.188 205.45,0.83 410.917,0.83 "/>
+</svg>

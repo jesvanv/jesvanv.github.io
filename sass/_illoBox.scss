@@ -1,0 +1,37 @@
+#illoBox {
+    a {
+        background-color: #993333;
+        &.item01 {
+            background-image: url('/images/CPO_sonar_full.jpg');
+        }
+        &.item02 {
+            background-image: url('/images/CPO_volcanoes_lake_full.jpg');
+        }
+        &.item03 {
+            background-image: url('/images/CPO_Mag_patterns_full.jpg');
+        }
+        &.item04 {
+            background-image: url('/images/CPO_molecule-motion_full.jpg');
+        }
+        &.item05 {
+            background-image: url('/images/CPO_Photocopier-insides.jpg');
+        }
+        &.item06 {
+            background-image: url('/images/UF_mascot_full.jpg');
+            background-position-x: 31%;
+            background-size: 670%;
+        }
+        &.item07 {
+            background-image: url('/images/CPO_Life-time-line_full.jpg');
+        }
+        &.item08 {
+            background-image: url('/images/CPO_cricket_features_full.jpg');
+        }
+        &.item09 {
+            background-image: url('/images/CPO_rollercoaster_full.jpg');
+        }
+        &.item10 {
+            background-image: url('/images/CPO_under_waterfall_full.jpg');
+        }
+    }
+}

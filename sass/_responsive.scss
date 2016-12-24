@@ -1,0 +1,137 @@
+@media screen and (max-width: 767px) {
+
+  body {
+    padding: 0;
+  }
+
+  $mobileTop: 5rem;
+
+  .name {
+    position: fixed;
+    font-size: 9.75vw;
+    height: $mobileTop;
+  }
+
+  #gallery {
+    top: $mobileTop;
+    height: 60vh;
+    min-height: auto;
+    padding: 2em 0;
+    .category-titles {
+      flex-wrap: wrap;
+      a {
+        flex-basis: 50%;
+        background-size: 65%;
+        padding: 18% 1em;
+      }
+    }
+    .thumbsHolder {
+      flex-direction: column;
+      top: 105%;
+      & > a {
+        box-shadow: -3px 0 8px black;
+      }
+    }
+  }
+
+  .close {
+    margin-top: 0;
+  }
+
+  footer {
+    p {
+      margin: 2.5em 1em;
+    }
+  }
+
+  body.resume {
+    div.container {
+      width: 100%;
+      margin: 0;
+      padding: 1em;
+      .name {
+        font-size: 9vw;
+      }
+    }
+  }
+
+  #closer {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    font: 10vw 'Jura', sans-serif;
+  }
+
+  .mfp-content {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    top:0;
+    left: 0;
+    padding: 50% 0;
+    .mfp-close {
+      font-size: 14vw;
+      top: -19%;
+      right: 4%;
+    }
+    .mfp-figure {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      -ms-transform: translate(0, -50%);
+      -moz-transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
+      transform: translate(0, -50%);
+    }
+    figure, .mfp-figure {
+      width: 100%;
+      img.mfp-img {
+        max-width: none;
+        width: 90%;
+        margin: 0 auto;
+      }
+      .mfp-title {
+        min-width: auto;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        span, .clickText {
+          display: block;
+          margin: 0.3em auto;
+        }
+        .clickText {
+          width: 7em;
+        }
+      }
+    }
+    .mfp-arrow {
+      margin-top: 0;
+      top: 13%;
+    }
+    .mfp-arrow-right {
+      right: 30%;
+    }
+    .mfp-arrow-left {
+      left: 30%;
+    }
+  .description {
+    line-height: 1.6;
+    text-align: center;
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  }
+  body.email {
+    #closer {
+      color: #FFFFFF;
+      top: 0;
+      right: 0.5em;
+      text-shadow: 1px 1px 1px black;
+    }
+    img.email {
+      max-width: auto;
+      width: 100%;
+    }
+  }
+}

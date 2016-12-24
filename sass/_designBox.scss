@@ -1,0 +1,36 @@
+#designBox {
+    a {
+        background-color: #996A33;
+        &.item01 {
+            background-image: url('/images/CFF_Invite_Stand.jpg');
+            background-position: top right;
+        }
+        &.item02 {
+            background-image: url('/images/YB_Broch_Stand.jpg');
+        }
+        &.item03 {
+            background-image: url('/images/CPO_MLCRG_cover_Stand.png');
+        }
+        &.item04 {
+            background-image: url('/images/CFF_Ad_2_full_stand.jpg');
+        }
+        &.item05 {
+            background-image: url('/images/Remmys_stand.jpg');
+        }
+        &.item06 {
+            background-image: url('/images/YB_RC_08-09_Stand.jpg');
+        }
+        &.item07 {
+            background-image: url('/images/PCC_Compaq_stand.png');
+        }
+        &.item08 {
+            background-image: url('/images/max_menu_full.jpg');
+        }
+        &.item09 {
+            background-image: url('/images/CFF_Doves_letter_full.jpg');
+        }
+        &.item10 {
+            background-image: url('/images/max_label_full.jpg');
+        }
+    }
+}
