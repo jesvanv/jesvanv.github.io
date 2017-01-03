@@ -1,3 +1,9 @@
-$('#closer').on('click tap', function() {
-  window.location = 'http://jcvanv.localhost';
-});
+if($('#closer')) {
+    $('#closer').on('click tap', function() {
+      if(location.hostname === "localhost") {
+        window.location = 'http://jcvanv.localhost';
+      } else {
+        window.location = 'http://www.jcvanv.com'
+      }
+    });
+  }

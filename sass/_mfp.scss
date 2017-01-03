@@ -252,7 +252,7 @@ button::-moz-focus-inner {
     opacity: 0.7;
 }
 .mfp-arrow-left {
-    left: 0;
+    left: -25px;
 }
 .mfp-arrow-left .mfp-a,
 .mfp-arrow-left:after {
@@ -260,7 +260,7 @@ button::-moz-focus-inner {
     margin-left: 31px;
 }
 .mfp-arrow-right {
-    right: 0;
+    right: -25px;
 }
 .mfp-arrow-right .mfp-a,
 .mfp-arrow-right:after {

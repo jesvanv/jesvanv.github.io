@@ -201,24 +201,54 @@ function startShow() {
         tcounter: ''
       },
       image: {
-      markup: '<div class="mfp-figure">' +
-                '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' +
-                '<div class="mfp-img"></div>' +
-                '<div class="mfp-bottom-bar">' +
-                  '<div class="mfp-title"></div>' +
-                  '<div class="description">This is conceptual UI developed based on input and feedback from team members before the start of code development. Using Adobe Illustrator and Proto.io.</div>'+
-                '</div>' +
-              '</div>'
+        markup: '<div class="mfp-figure">' +
+                  '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' +
+                  '<div class="mfp-img"></div>' +
+                  '<div class="mfp-bottom-bar">' +
+                    '<div class="mfp-title"></div>' +
+                    '<div class="description">This is conceptual UI developed based on input and feedback from team members before the start of code development. Using Adobe Illustrator and Proto.io.</div>'+
+                  '</div>' +
+                '</div>',
+        titleSrc: 'title'
         },
-          titleSrc: 'title',
           callbacks: {
+            buildControls: function() {
+              // re-appends controls inside the main container
+              this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+            }
+          }
+    });
 
-    buildControls: function() {
-      // re-appends controls inside the main container
-      this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
-    }
-
-  }
+     $('#webBox .image_popup.item03').magnificPopup({
+        type: 'image',
+        items: [
+          { src: '/images/fr_login.jpg' },
+          { src: '/images/fr_bookshelf.jpg' },
+          { src: '/images/fr_search.jpg' },
+          { src: '/images/fr_book_ui.jpg' },
+          { src: '/images/fr_help.jpg' }
+        ],
+        gallery: {
+          enabled: true,
+          tcounter: ''
+        },
+        image: {
+          markup: '<div class="mfp-figure">' +
+                    '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' +
+                    '<div class="mfp-img"></div>' +
+                    '<div class="mfp-bottom-bar">' +
+                      '<div class="mfp-title"></div>' +
+                      '<div class="description">UI for native iOS and Android eReader. Developed all aspects of UI design and implmented and improved UX using native code using Android Studio, and HMTL/CSS/JS for WebView interfaces.</div>'+
+                    '</div>' +
+                  '</div>',
+          titleSrc: 'title'
+          },
+            callbacks: {
+              buildControls: function() {
+                // re-appends controls inside the main container
+                this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+              }
+            }
     });
 
     $('.iframe_foodweb').magnificPopup({
