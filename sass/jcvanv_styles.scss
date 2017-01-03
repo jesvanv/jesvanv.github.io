@@ -43,7 +43,7 @@ a {
 .name {
     width: 100%;
     margin: 0;
-    font: normal 3.75vw "Anton", sans-serif;
+    font: normal 2.75rem "Anton", sans-serif;
     transition: all linear 0.1s;
     background: #999;
     .firstname {
@@ -68,16 +68,17 @@ a {
     overflow: hidden;
     margin: 0;
     width: 100%;
-    height: $galleryHeight;
     min-height: 21em;
     background: $grayTwo;
     border-top: $borderThreeGreen;
     border-bottom: $borderThreeGreen;
     box-shadow: inset -2px 0 5px rgba(0,0,0,0.5);
     transition: border linear 0.5s;
+    z-index: 999;
 }
 .close {
-    margin: -3.3rem auto 0;
+    display: none;
+    margin: 0 auto;
     padding: 0.9em 1em;
     width: 3em;
     background: $green;
@@ -88,6 +89,12 @@ a {
     cursor: pointer;
 }
 .category-titles {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    transform: translate(0, -50%);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -96,37 +103,21 @@ a {
     font: normal 1.1em "Jura", sans-serif;
     letter-spacing: 0.1em;
     a {
-        position: relative;
         display: block;
-        padding: 26% 1em;
-        @media screen and (-webkit-min-device-pixel-ratio:0) {
-            padding: 7% 1em;
-        }
         color: #333;
         flex-basis: 15%;
         text-align: center;
         color: white;
-        background-size: 87%;
-        background-position: top center;
-        background-repeat: no-repeat;
-        &#webLink {
-            background-image: url('../images/dev-icon.svg');
-        }
-        &#designLink {
-            background-image: url('../images/des-icon.svg');
-        }
-        &#illoLink {
-            background-image: url('../images/ill-icon.svg');
-        }
-        &#animLink {
-            background-image: url('../images/anim-icon.svg');
+        img {
+          width: 80%;
+          display: block;
+          margin: 0 auto 1em;
         }
         p {
-            position: absolute;
-            left: 50%;
-            transform: translate(-50%, 0);
-            margin: 0;
-            bottom: 0.5em;
+            width: 100%;
+            text-align: center;
+            margin: 1em 0 0;
+            bottom: 0;
         }
     }
 }
@@ -159,18 +150,20 @@ a {
         background-blend-mode: normal;
     }
 }
+
 @import 'webBox';
 @import 'designBox';
 @import 'animBox';
 @import 'illoBox';
+
 footer {
     display: flex;
     justify-content: center;
     p {
         font-family: 'Jura', sans-serif;
-        font-size: 1.2em;
+        font-size: 1.1em;
         color: #424242;
-        margin: 1.3em 1em;
+        margin: 1em;
         &:hover {
             color: $green;
         }
@@ -438,6 +431,21 @@ footer {
     margin: 0;
     color: white;
     font-family: 'Open Sans', Verdana, sans-serif;
+}
+
+#swiffy-frame {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  height: calc(100vw / 1.375);
+  top: 50%;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  border: 0;
+  &.racing-cars-frame {
+    height: calc(100vw / 1.6);
+  }
 }
 
 .swiffy-wrapper {

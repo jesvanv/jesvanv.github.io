@@ -24,13 +24,14 @@ function startShow() {
         $(catLink).on('click tap', function(e) {
           e.preventDefault();
           self = this;
+          $(close).fadeIn();
           if($(window).width() > 767) {
-          $(gallery).animate({ height: '70vh' });
-          $('#' + self.name + 'Box').animate({
-              top: 0,
-              height: '100%'
-          });
-          $('body').animate({ padding: '0' });
+            $(gallery).animate({ height: '70vh' });
+            $('#' + self.name + 'Box').animate({
+                top: 0,
+                height: '100%'
+            });
+            $('body').animate({ padding: '0' });
         } else {
           $(gallery).animate({ height: '75vh' });
           $('#' + self.name + 'Box').animate({
@@ -58,12 +59,7 @@ function startShow() {
               $(close).css({ 'backgroundColor': redColor });
               $(name).css({ 'color': redColor });
             }
-            if($(window).width() > 767) {
-              $(close).animate({ marginTop: '0' });
-            } else {
-              $(close).animate({ marginTop: '10.5vh' });
-              $('footer').find('p').animate({ marginTop: '0.7em' });
-            }
+
         });
 
         $(close).on('click', function() {
@@ -73,15 +69,10 @@ function startShow() {
             top: '100%',
             height: '70vh'
           }, {queue: false});
-          $(self).animate({ marginTop: closeTopMargin });
-          $('footer .p').animate({ margin: '0' });
+          $(self).fadeOut();
           $(gallery).animate({ height: galleryHeight });
           if($(window).width() > 767) {
             $('body').animate({ padding: '5% 0' });
-          } else {
-            $(footerP).animate({
-              marginTop: '2.5em'
-            });
           }
         });
 

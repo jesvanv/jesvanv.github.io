@@ -7,22 +7,16 @@
   $mobileTop: 5rem;
 
   .name {
-    position: fixed;
     font-size: 9.75vw;
-    height: $mobileTop;
   }
 
   #gallery {
-    top: $mobileTop;
-    height: 60vh;
-    min-height: auto;
-    padding: 2em 0;
     .category-titles {
       flex-wrap: wrap;
       a {
-        flex-basis: 50%;
+        flex-basis: 35%;
         background-size: 65%;
-        padding: 18% 1em;
+        font-size: 1em;
       }
     }
     .thumbsHolder {
@@ -36,12 +30,6 @@
 
   .close {
     margin-top: 0;
-  }
-
-  footer {
-    p {
-      margin: 2.5em 1em;
-    }
   }
 
   body.resume {

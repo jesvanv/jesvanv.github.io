@@ -35,7 +35,7 @@ a {
 .name {
   width: 100%;
   margin: 0;
-  font: normal 3.75vw "Anton", sans-serif;
+  font: normal 2.75rem "Anton", sans-serif;
   transition: all linear 0.1s;
   background: #999; }
   .name .firstname {
@@ -56,16 +56,17 @@ a {
   overflow: hidden;
   margin: 0;
   width: 100%;
-  height: 40vh;
   min-height: 21em;
   background: #424242;
   border-top: 3px solid #A4E449;
   border-bottom: 3px solid #A4E449;
   box-shadow: inset -2px 0 5px rgba(0, 0, 0, 0.5);
-  transition: border linear 0.5s; }
+  transition: border linear 0.5s;
+  z-index: 999; }
 
 .close {
-  margin: -3.3rem auto 0;
+  display: none;
+  margin: 0 auto;
   padding: 0.9em 1em;
   width: 3em;
   background: #A4E449;
@@ -76,6 +77,12 @@ a {
   cursor: pointer; }
 
 .category-titles {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  transform: translate(0, -50%);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -84,33 +91,20 @@ a {
   font: normal 1.1em "Jura", sans-serif;
   letter-spacing: 0.1em; }
   .category-titles a {
-    position: relative;
     display: block;
-    padding: 26% 1em;
     color: #333;
     flex-basis: 15%;
     text-align: center;
-    color: white;
-    background-size: 87%;
-    background-position: top center;
-    background-repeat: no-repeat; }
-    @media screen and (-webkit-min-device-pixel-ratio: 0) {
-      .category-titles a {
-        padding: 7% 1em; } }
-    .category-titles a#webLink {
-      background-image: url("../images/dev-icon.svg"); }
-    .category-titles a#designLink {
-      background-image: url("../images/des-icon.svg"); }
-    .category-titles a#illoLink {
-      background-image: url("../images/ill-icon.svg"); }
-    .category-titles a#animLink {
-      background-image: url("../images/anim-icon.svg"); }
+    color: white; }
+    .category-titles a img {
+      width: 80%;
+      display: block;
+      margin: 0 auto 1em; }
     .category-titles a p {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, 0);
-      margin: 0;
-      bottom: 0.5em; }
+      width: 100%;
+      text-align: center;
+      margin: 1em 0 0;
+      bottom: 0; }
 
 #thumbsHolder-container {
   position: absolute;
@@ -253,9 +247,9 @@ footer {
   justify-content: center; }
   footer p {
     font-family: 'Jura', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: #424242;
-    margin: 1.3em 1em; }
+    margin: 1em; }
     footer p:hover {
       color: #A4E449; }
 
@@ -508,6 +502,19 @@ footer {
   margin: 0;
   color: white;
   font-family: 'Open Sans', Verdana, sans-serif; }
+
+#swiffy-frame {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  height: calc(100vw / 1.375);
+  top: 50%;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  border: 0; }
+  #swiffy-frame.racing-cars-frame {
+    height: calc(100vw / 1.6); }
 
 .swiffy-wrapper {
   position: relative;
@@ -938,32 +945,22 @@ img.mfp-img {
     padding: 0; }
 
   .name {
-    position: fixed;
-    font-size: 9.75vw;
-    height: 5rem; }
+    font-size: 9.75vw; }
 
-  #gallery {
-    top: 5rem;
-    height: 60vh;
-    min-height: auto;
-    padding: 2em 0; }
-    #gallery .category-titles {
-      flex-wrap: wrap; }
-      #gallery .category-titles a {
-        flex-basis: 50%;
-        background-size: 65%;
-        padding: 18% 1em; }
-    #gallery .thumbsHolder {
-      flex-direction: column;
-      top: 105%; }
-      #gallery .thumbsHolder > a {
-        box-shadow: -3px 0 8px black; }
+  #gallery .category-titles {
+    flex-wrap: wrap; }
+    #gallery .category-titles a {
+      flex-basis: 35%;
+      background-size: 65%;
+      font-size: 1em; }
+  #gallery .thumbsHolder {
+    flex-direction: column;
+    top: 105%; }
+    #gallery .thumbsHolder > a {
+      box-shadow: -3px 0 8px black; }
 
   .close {
     margin-top: 0; }
-
-  footer p {
-    margin: 2.5em 1em; }
 
   body.resume div.container {
     width: 100%;
