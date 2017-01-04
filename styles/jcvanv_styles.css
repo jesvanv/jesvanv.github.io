@@ -142,19 +142,18 @@ a {
   #webBox a.item02 {
     background-image: url("/images/teacher-dash.jpg"); }
   #webBox a.item03 {
-    background-image: url("/images/hollowaysite.jpg"); }
+    background-image: url("/images/fr_search.jpg"); }
   #webBox a.item04 {
+    background-image: url("/images/hollowaysite.jpg"); }
+  #webBox a.item05 {
     background-image: url("/images/cff_winter_email.jpg");
     background-size: 480%;
     background-position: -30px -140px; }
-  #webBox a.item05 {
+  #webBox a.item06 {
     background-image: url("/images/tx_tg_full.jpg");
     background-position: 90% 0; }
-  #webBox a.item06 {
-    background-image: url("/images/yb_email_clothing.jpg"); }
   #webBox a.item07 {
-    background-image: url("/images/magicsite.jpg");
-    background-position: 18% 0; }
+    background-image: url("/images/yb_email_clothing.jpg"); }
   #webBox a.item08 {
     background-image: url("/images/YB_email_paw_click.jpg"); }
   #webBox a.item09 {
@@ -502,6 +501,9 @@ footer {
   margin: 0;
   color: white;
   font-family: 'Open Sans', Verdana, sans-serif; }
+
+#closer {
+  cursor: pointer; }
 
 #swiffy-frame {
   position: absolute;
@@ -985,8 +987,12 @@ img.mfp-img {
     padding: 50% 0; }
     .mfp-content .mfp-close {
       font-size: 14vw;
-      top: -19%;
-      right: 4%; }
+      line-height: 0.5;
+      top: -45px;
+      right: 4%;
+      width: auto;
+      height: auto;
+      padding: 5px; }
     .mfp-content .mfp-figure {
       position: absolute;
       width: 100%;

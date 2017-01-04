@@ -60,8 +60,12 @@
     padding: 50% 0;
     .mfp-close {
       font-size: 14vw;
-      top: -19%;
+      line-height: 0.5;
+      top: -45px;
       right: 4%;
+      width: auto;
+      height: auto;
+      padding: 5px;
     }
     .mfp-figure {
       position: absolute;
