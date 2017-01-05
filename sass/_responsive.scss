@@ -32,6 +32,13 @@
     margin-top: 0;
   }
 
+  #flashContent {
+    iframe {
+      width: 100vw;
+      height: 100vh;
+    }
+  }
+
   body.resume {
     div.container {
       width: 100%;
@@ -45,8 +52,8 @@
 
   #closer {
     position: absolute;
-    top: 1em;
-    right: 1em;
+    top: 1%;
+    right: 4%;
     font: 10vw 'Jura', sans-serif;
   }
 
@@ -99,7 +106,8 @@
     }
     .mfp-arrow {
       margin-top: 0;
-      top: 13%;
+      top: auto;
+      bottom: 0;
     }
     .mfp-arrow-right {
       right: 30%;

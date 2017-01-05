@@ -2,9 +2,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>Animation</title>
+<title>Animation | Acceleration</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<script type="text/javascript" src="../scripts/swfobject.js"></script>
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script type="text/javascript">
 (function(){
 			<!-- Adobe recommends that developers use SWFObject2 for Flash Player detection. -->
@@ -46,13 +47,14 @@
        .noFlashMessage {font-family:'Anton', san-serif; font-size: 0.8em; width:200px; display: block; margin:50px auto; text-align: center; color:#456}
 </style>
     <link href="../styles/jcvanv_styles.css" rel="stylesheet" type="text/css" />
-
+    <meta name="viewport" content="width=device-width" />
 </head>
 
 <body style="text-align:left; margin:0">
+	<div id="closer">x</div>
 		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
 		<div id="flashContent">
-        <iframe src="racing_cars_acceleration_swiffy.html" width="700" height="400"></iframe>
+        <iframe src="racing_cars_acceleration_swiffy.html" id="swiffy-frame" class="racing-cars-frame"></iframe>
            <!-- <p class="noFlashMessage">You will need the latest version of <a href="https://get.adobe.com/flashplayer/" target="_blank">Flash</a> or an <a href="http://html5test.com/">HTML 5 compatible browser</a> to view this animation.</p> -->
     </div>
 </body>

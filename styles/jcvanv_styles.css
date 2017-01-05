@@ -209,7 +209,7 @@ a {
   #animationBox a.item09 {
     background-image: url("/images/finches-full.jpg"); }
   #animationBox a.item10 {
-    background-image: url("/images/actreact-full.jpg"); }
+    background-image: url("/images/sonar_preview.jpg"); }
 
 @media screen and (max-width: 767px) {
   #animationBox a.item02 {
@@ -964,6 +964,10 @@ img.mfp-img {
   .close {
     margin-top: 0; }
 
+  #flashContent iframe {
+    width: 100vw;
+    height: 100vh; }
+
   body.resume div.container {
     width: 100%;
     margin: 0;
@@ -973,8 +977,8 @@ img.mfp-img {
 
   #closer {
     position: absolute;
-    top: 1em;
-    right: 1em;
+    top: 1%;
+    right: 4%;
     font: 10vw 'Jura', sans-serif; }
 
   .mfp-content {
@@ -1019,7 +1023,8 @@ img.mfp-img {
           width: 7em; }
     .mfp-content .mfp-arrow {
       margin-top: 0;
-      top: 13%; }
+      top: auto;
+      bottom: 0; }
     .mfp-content .mfp-arrow-right {
       right: 30%; }
     .mfp-content .mfp-arrow-left {

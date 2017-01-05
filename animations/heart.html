@@ -43,41 +43,16 @@
 				swfVersionStr, xiSwfUrlStr,
 				flashvars, params, attributes);
 								})();
-
 		</script>
-
-
-   <style>
-       @import url(http://fonts.googleapis.com/css?family=Anton);
-       .noFlashMessage {font-family:'Anton', san-serif; font-size: 0.8em; width:200px; display: block; margin:50px auto; text-align: center; color:#456}
-			 iframe { width: 100vw; height: 100vh;}
-</style>
      <link href="../styles/jcvanv_styles.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body style="text-align:left; margin:0">
-	<div id="closer">x</div>
 		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
 		<div id="flashContent">
-        <iframe src="heart_swiffy.html"></iframe>
+			<div id="closer">x</div>
+        <iframe src="heart_canvas/heart_Canvas.html"></iframe>
+				<script src="/scripts/window-closer.js"></script>
     </div>
-
-     <script>
-		function loadCSSFile (filename) {
-    $("<link>", {
-         rel: "stylesheet"
-       , type: "text/css"
-       , href: filename
-    }).appendTo("head");
-}
-
-    loadCSSFile("../styles/jcvanv_styles.css");
-
-		$('#closer').on('click', function() {
-			window.location = 'http://jcvanv.localhost';
-		})
-
-		</script>
 </body>
 </html>

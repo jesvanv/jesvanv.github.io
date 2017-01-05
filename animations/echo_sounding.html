@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Animation | Echo Sounding</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="../scripts/swfobject.js"></script>
+<script type="text/javascript">
+(function(){
+			<!-- Adobe recommends that developers use SWFObject2 for Flash Player detection. -->
+			<!-- For more information see the SWFObject page at Google code (http://code.google.com/p/swfobject/). -->
+			<!-- Information is also available on the Adobe Developer Connection Under "Detecting Flash Player versions and embedding SWF files with SWFObject 2" -->
+			<!-- Set to minimum required Flash Player version or 0 for no version detection -->
+			var swfVersionStr = "11.1";
+			<!-- xiSwfUrlStr can be used to define an express installer SWF. -->
+			var xiSwfUrlStr = "";
+			var flashvars = {};
+			var params = {};
+			params.quality = "high";
+			params.bgcolor = "#ffffff";
+			params.play = "true";
+			params.loop = "true";
+			params.wmode = "window";
+			params.scale = "showall";
+			params.menu = "true";
+			params.devicefont = "false";
+			params.salign = "";
+			params.allowscriptaccess = "sameDomain";
+			var attributes = {};
+			attributes.id = "animation";
+			attributes.name = "animation";
+			attributes.align = "middle";
+			swfobject.createCSS("html", "height:100%; background-color: #ffffff;");
+			swfobject.createCSS("body", "margin:0; overflow:hidden; height:100%; text-align:center");
+			swfobject.createCSS("#animation", "box-shadow:0px 0px 8px rgba(0,0,0,0.3)");
+			swfobject.embedSWF(
+				"echo_sounding.swf", "flashContent",
+				"550", "400",
+				swfVersionStr, xiSwfUrlStr,
+				flashvars, params, attributes);
+								})();
+
+		</script>
+		<link rel="stylesheet" href="/styles/jcvanv_styles.css"/>
+		<meta name="viewport" content="width=device-width" />
+</head>
+
+<body style="text-align:left; margin:0">
+		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
+		<div id="flashContent">
+			<div id="closer">x</div>
+      <iframe src="/animations/echo_sounding_canvas/echo_sounding_canvas.html"></iframe>
+			<script src="/scripts/window-closer.js"></script>
+    </div>
+</body>
+</html>

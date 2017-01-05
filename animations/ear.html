@@ -42,28 +42,16 @@
 								})();
 
 		</script>
-   <style>
-       @import url(http://fonts.googleapis.com/css?family=Anton);
-       iframe { width: 100vw; height: 100vh;}
-</style>
    <link href="../styles/jcvanv_styles.css" rel="stylesheet" type="text/css" />
    <meta name="viewport" content="width=device-width" />
 </head>
 
 <body style="text-align:left; margin:0">
-  <div id="closer">x</div>
 		<!-- SWFObject's dynamic embed method replaces this alternative HTML content for Flash content when enough JavaScript and Flash plug-in support is available. -->
 		<div id="flashContent">
-        <iframe src="ear_swiffy.html" width="550" height="400"></iframe>
-           <!-- <p class="noFlashMessage">You will need the latest version of <a href="https://get.adobe.com/flashplayer/" target="_blank">Flash</a> or an <a href="http://html5test.com/">HTML 5 compatible browser</a> to view this animation.</p> -->
+			<div id="closer">x</div>
+	      <iframe src="/animations/ear_canvas/ear_canvas.html"></iframe>
+				<script type="text/javascript" src="/scripts/window-closer.js"></script>
     </div>
 </body>
-<link rel="stylesheet" href="/styles/jcvanv_styles.css"/>
-<script>
-function loadCSSFile (filename) {
-  $('#closer').on('click', function() {
-   window.location = 'http://jcvanv.localhost';
- });
-
-</script>
 </html>
