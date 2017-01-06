@@ -193,7 +193,8 @@ a {
   #animationBox a.item01 {
     background-image: url("/images/topo-full.jpg"); }
   #animationBox a.item02 {
-    background-image: url("/images/car-accel-full.jpg"); }
+    background-image: url("/images/inhale_preview.jpg");
+    background-position: 65% 0; }
   #animationBox a.item03 {
     background-image: url("/images/foodweb-full.jpg"); }
   #animationBox a.item04 {
