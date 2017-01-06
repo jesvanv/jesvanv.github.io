@@ -39,7 +39,8 @@ a {
   transition: all linear 0.1s;
   background: #999; }
   .name .firstname {
-    transition: color linear 0.5s; }
+    transition: color linear 0.5s;
+    text-shadow: initial; }
   .name p {
     margin: 0.3em 0;
     color: white;
@@ -944,10 +945,10 @@ img.mfp-img {
           margin-bottom: 1em; }
       .resume .container section ul {
         margin: 0; }
-      .resume .container section ul li {
-        margin: 0.3em 0; }
-        .resume .container section ul li:last-of-type {
-          margin-bottom: 2em; }
+        .resume .container section ul li {
+          margin: 0.3em 0; }
+          .resume .container section ul li:last-of-type {
+            margin-bottom: 2em; }
     .resume .container .references {
       font: italic 0.9em 'Helvetica Neue', Helvetica, sans-serif;
       color: #666666; }
@@ -961,17 +962,17 @@ img.mfp-img {
 
   #gallery {
     min-height: 55vh; }
-  #gallery .category-titles {
-    flex-wrap: wrap; }
-    #gallery .category-titles a {
-      flex-basis: 35%;
-      background-size: 65%;
-      font-size: 1em; }
-  #gallery .thumbsHolder {
-    flex-direction: column;
-    top: 105%; }
-    #gallery .thumbsHolder > a {
-      box-shadow: -3px 0 8px black; }
+    #gallery .category-titles {
+      flex-wrap: wrap; }
+      #gallery .category-titles a {
+        flex-basis: 35%;
+        background-size: 65%;
+        font-size: 1em; }
+    #gallery .thumbsHolder {
+      flex-direction: column;
+      top: 105%; }
+      #gallery .thumbsHolder > a {
+        box-shadow: -3px 0 8px black; }
 
   .close {
     margin-top: 0; }
