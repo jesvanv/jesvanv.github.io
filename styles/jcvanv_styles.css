@@ -959,6 +959,8 @@ img.mfp-img {
   .name {
     font-size: 9.75vw; }
 
+  #gallery {
+    min-height: 55vh; }
   #gallery .category-titles {
     flex-wrap: wrap; }
     #gallery .category-titles a {
@@ -1053,5 +1055,8 @@ img.mfp-img {
   body.email img.email {
     max-width: auto;
     width: 100%; } }
+@media screen and (max-width: 320px) {
+  #gallery {
+    min-height: 60vh; } }
 
 /*# sourceMappingURL=jcvanv_styles.css.map */

@@ -11,6 +11,7 @@
   }
 
   #gallery {
+    min-height: 55vh;
     .category-titles {
       flex-wrap: wrap;
       a {
@@ -134,4 +135,12 @@
       width: 100%;
     }
   }
+}
+
+@media screen and (max-width: 320px) {
+
+  #gallery {
+    min-height: 60vh;
+  }
+
 }
