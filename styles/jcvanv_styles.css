@@ -905,25 +905,32 @@ img.mfp-img {
 .resume {
   padding: 2% 0; }
   .resume .container {
-    width: 60%;
+    width: 80%;
+    max-width: 900px;
     margin: 1em auto;
     padding: 1em 2em;
     background: #FFFFFF;
     box-shadow: 3px 3px 6px #000000; }
+    .resume .container header {
+      margin: -1em -2em 0; }
     .resume .container .name {
       position: relative;
       text-align: center;
-      color: #336699;
-      background-color: transparent;
-      border-bottom: 2px solid #336699;
+      color: white;
       height: auto;
-      padding: 3% 0; }
+      padding: 3% 0;
+      border-bottom: 2px solid #A4E449; }
+      .resume .container .name .firstname {
+        color: #A4E449; }
     .resume .container section {
-      font: 1em 'Helvetica Neue', Helvetica, sans-serif;
+      padding: 0 0 0 1em;
+      margin: 1em 1em 1em 0;
+      border-left: 1px solid #A4E449;
+      font: 0.9em 'Helvetica Neue', Helvetica, sans-serif;
       color: #444444; }
       .resume .container section h3 {
         font: 1.3em 'Anton', sans-serif;
-        color: #666666;
+        color: #7ca83f;
         letter-spacing: 0.05em;
         margin: 0.5em 0 0; }
       .resume .container section p {
@@ -935,6 +942,8 @@ img.mfp-img {
         .resume .container section p.job-title {
           margin-top: 0;
           margin-bottom: 1em; }
+      .resume .container section ul {
+        margin: 0; }
       .resume .container section ul li {
         margin: 0.3em 0; }
         .resume .container section ul li:last-of-type {
