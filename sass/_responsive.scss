@@ -137,6 +137,19 @@
   }
 }
 
+@media screen and (max-width: 767px) and (max-height: 385px) {
+
+  .name {
+    font-size: 6.5vw;
+  }
+
+  #gallery {
+    .category-titles {
+      flex-wrap: nowrap;
+    }
+  }
+}
+
 @media screen and (max-width: 320px) {
 
   #gallery {
