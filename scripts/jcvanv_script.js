@@ -162,6 +162,37 @@ function startShow( ) {
 
   });
 
+  $( '#webBox .image_popup.item01' ).magnificPopup({
+    type: 'image',
+    items: [
+      {
+        src: '/images/vm_screen.jpg'
+      }, {
+        src: '/images/vm_screen_2.jpg'
+      }, {
+        src: '/images/vm_screen_3.jpg'
+      }, {
+        src: '/images/vm_screen_4.jpg'
+      }, {
+        src: '/images/vm_screen_5.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true,
+      tcounter: ''
+    },
+    image: {
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><p><span class="imageTitle">Website Front End &amp; Development</span><span class="credit">&copy; Isabella Products</span></p><p>Responsible for managing front end concerns and improvements. Implemented a responive design for all pages and views of site. Working in a MVC framework, managing and implementing CSS, HTML and PHP improvements and solutions.</p></div>' + '</div>' + '</div>',
+      titleSrc: 'title'
+    },
+    callbacks: {
+      buildControls: function( ) {
+        // re-appends controls inside the main container
+        this.contentContainer.append(this.arrowLeft.add( this.arrowRight ));
+      }
+    }
+  });
+
   $( '#webBox .image_popup.item02' ).magnificPopup({
     type: 'image',
     items: [
@@ -182,7 +213,7 @@ function startShow( ) {
       tcounter: ''
     },
     image: {
-      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description">This is conceptual UI developed based on input and feedback from team members before the start of code development. Using Adobe Illustrator and Proto.io.</div>' + '</div>' + '</div>',
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><p><span class="imageTitle">Teacher Student Web App&amp; UI/UX Design</span><span class="credit">&copy; Isabella Products</span></p><p>This is conceptual UI developed based on input and feedback from team members before the start of code development. Using Adobe Illustrator and Proto.io.</p></div>' + '</div>' + '</div>',
       titleSrc: 'title'
     },
     callbacks: {
@@ -213,7 +244,7 @@ function startShow( ) {
       tcounter: ''
     },
     image: {
-      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description">UI for native iOS and Android eReader. Developed all aspects of UI design and implemented and improved UX using native code in Android Studio, and HMTL/CSS/JS for WebView interfaces.</div>' + '</div>' + '</div>',
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><p><span class="imageTitle">eReader App UI &amp; Development</span><span class="credit">&copy; Isabella Products</span></p><p>UI for native iOS and Android eReader. Developed all aspects of UI design and implmented and improved UX using native code using Android Studio, and HMTL/CSS/JS for WebView interfaces.</p></div>' + '</div>' + '</div>',
       titleSrc: 'title'
     },
     callbacks: {

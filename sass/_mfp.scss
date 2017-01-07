@@ -83,7 +83,7 @@
     -webkit-transform: translate(-50%, -50%);
     -moz-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    padding: 1.4em 2.1em 2.4em;
+    padding: 1.4em 2.1em 2em;
     border-radius: 0.3em;
     background: #222;
     text-align: left;
@@ -365,6 +365,7 @@ img.mfp-img {
 }
 .description {
     font-family: 'Helvetica', Helvetica, sans-serif;
+    font-size: 0.9em;
     text-align: center;
     color: #908F8F;
     margin: 1em auto 0;
