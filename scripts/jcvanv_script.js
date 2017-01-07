@@ -255,6 +255,14 @@ function startShow( ) {
     }
   });
 
+  $( '#webBox .image_popup.item05' ).magnificPopup({
+    type: 'image',
+    image: {
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><p>Refresh of corporate site design, and implementing responsive design across site. Using a custom CMS, working with HTML, CSS and JavaScript.</p></div>' + '</div>' + '</div>',
+      titleSrc: 'title'
+      }
+  });
+
   $( '.iframe_foodweb' ).magnificPopup({
     type: 'iframe',
     iframe: {

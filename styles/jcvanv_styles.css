@@ -147,9 +147,7 @@ a {
   #webBox a.item04 {
     background-image: url("/images/hollowaysite.jpg"); }
   #webBox a.item05 {
-    background-image: url("/images/cff_winter_email.jpg");
-    background-size: 480%;
-    background-position: -30px -140px; }
+    background-image: url("/images/isabellaprod_1.jpg"); }
   #webBox a.item06 {
     background-image: url("/images/tx_tg_full.jpg");
     background-position: 90% 0; }
@@ -496,13 +494,17 @@ footer {
 .titleHolder {
   margin: 0; }
 
+.credit {
+  display: block; }
+
 .imageTitle {
   font-family: "Anton", sans-serif;
+  font-size: 1rem;
   color: #FFC511;
   margin-right: 1em; }
 
 .credit {
-  font-size: 0.6em;
+  font-size: 0.6rem;
   margin: 0;
   color: white;
   font-family: 'Open Sans', Verdana, sans-serif; }
