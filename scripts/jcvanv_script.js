@@ -17,7 +17,8 @@ function startShow( ) {
       blueColor = '#336699',
       brownColor = '#996A33',
       purpleColor = '#753399',
-      redColor = '#993333';
+      redColor = '#993333',
+      noPopupWidth = '767';
 
   $( catLink ).on( 'click tap', function( e ) {
     e.preventDefault( );
@@ -106,7 +107,7 @@ function startShow( ) {
     disableOn: function( ) {
       // Detect here whether you want to show the popup
       // return true if you want
-      if ( $( window ).width( ) < 500 ) {
+      if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
       return true;
@@ -129,7 +130,7 @@ function startShow( ) {
     disableOn: function( ) {
       // Detect here whether you want to show the popup
       // return true if you want
-      if ( $( window ).width( ) < 500 ) {
+      if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
       return true;
@@ -153,7 +154,7 @@ function startShow( ) {
     disableOn: function( ) {
       // Detect here whether you want to show the popup
       // return true if you want
-      if ( $( window ).width( ) < 500 ) {
+      if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
       return true;
@@ -212,7 +213,7 @@ function startShow( ) {
       tcounter: ''
     },
     image: {
-      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description">UI for native iOS and Android eReader. Developed all aspects of UI design and implmented and improved UX using native code using Android Studio, and HMTL/CSS/JS for WebView interfaces.</div>' + '</div>' + '</div>',
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description">UI for native iOS and Android eReader. Developed all aspects of UI design and implemented and improved UX using native code in Android Studio, and HMTL/CSS/JS for WebView interfaces.</div>' + '</div>' + '</div>',
       titleSrc: 'title'
     },
     callbacks: {
@@ -238,7 +239,7 @@ function startShow( ) {
     disableOn: function( ) {
       // Detect here whether you want to show the popup
       // return true if you want
-      if ( $( window ).width( ) < 500 ) {
+      if ( $( window ).width() < noPopupWidth ) {
         return false;
       }
       return true;
@@ -261,7 +262,7 @@ function startShow( ) {
     disableOn: function( ) {
       // Detect here whether you want to show the popup
       // return true if you want
-      if ( $( window ).width( ) < 500 ) {
+      if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
       return true;
@@ -283,7 +284,7 @@ function startShow( ) {
     disableOn: function( ) {
       // Detect here whether you want to show the popup
       // return true if you want
-      if ( $( window ).width( ) < 500 ) {
+      if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
       return true;
