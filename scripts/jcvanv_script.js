@@ -175,6 +175,8 @@ function startShow( ) {
         src: '/images/vm_screen_4.jpg'
       }, {
         src: '/images/vm_screen_5.jpg'
+      }, {
+        src: '/images/vm_screens_mobile-all.png'
       }
     ],
     gallery: {
