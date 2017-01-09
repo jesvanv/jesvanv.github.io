@@ -67,7 +67,7 @@ function startShow( ) {
 
   $( close ).on( 'click', function( ) {
     self = this;
-    resetColors( );
+    resetColors('#A4E449');
     $( thumbsHolder ).animate({
       top: '100%',
       height: '70vh'
@@ -79,7 +79,7 @@ function startShow( ) {
     }
   });
 
-  function resetColors( color = '#A4E449' ) {
+  function resetColors(color) {
     $( gallery ).css({ 'borderColor': color });
     $( close ).css({ 'backgroundColor': color });
     $( name ).css({ 'color': color });
