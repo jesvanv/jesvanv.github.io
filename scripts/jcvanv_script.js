@@ -27,7 +27,7 @@ function startShow( ) {
       });
 
       $(categoryTitles).css({
-        visibility: 'visible'
+        opacity: 1
       });
 
   $( catLink ).on( 'click tap', function( e ) {

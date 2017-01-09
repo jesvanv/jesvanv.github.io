@@ -98,11 +98,12 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  visibility: hidden;
+  opacity: 0;
   height: 100%;
   margin: 0;
   font: normal 1.1em "Jura", sans-serif;
-  letter-spacing: 0.1em; }
+  letter-spacing: 0.1em;
+  transition: opacity 1s linear; }
   .category-titles a {
     display: block;
     color: #333;
