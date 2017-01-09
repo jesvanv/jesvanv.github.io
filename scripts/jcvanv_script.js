@@ -1,6 +1,8 @@
 function startShow( ) {
 
   var width = $( window ).width( ),
+      preloader = $('#preloader'),
+      categoryTitles = $('.category-titles'),
       name = $( '.firstname' ),
       gallery = $( '#gallery' ),
       galleryHeight = $( '#gallery' ).css( 'height' ),
@@ -19,6 +21,14 @@ function startShow( ) {
       purpleColor = '#753399',
       redColor = '#993333',
       noPopupWidth = '767';
+
+      $(preloader).css({
+        display: 'none'
+      });
+
+      $(categoryTitles).css({
+        visibility: 'visible'
+      });
 
   $( catLink ).on( 'click tap', function( e ) {
     e.preventDefault( );

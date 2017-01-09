@@ -64,6 +64,14 @@ a {
   box-shadow: inset -2px 0 5px rgba(0, 0, 0, 0.5);
   transition: border linear 0.5s;
   z-index: 999; }
+  #gallery #preloader {
+    font: 2em 'Jura', sans-serif;
+    color: #A4E449;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadey 3s infinite; }
 
 .close {
   display: none;
@@ -87,6 +95,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  visibility: hidden;
   height: 100%;
   margin: 0;
   font: normal 1.1em "Jura", sans-serif;
