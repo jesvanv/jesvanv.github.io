@@ -269,10 +269,27 @@ function startShow( ) {
 
   $( '#webBox .image_popup.item05' ).magnificPopup({
     type: 'image',
+    items: [
+      {
+        src: '/images/isabellaprod_1.jpg'
+      }, {
+        src: '/images/ip_screens_mobile-all.png'
+      }
+    ],
+    gallery: {
+      enabled: true,
+      tcounter: ''
+    },
     image: {
       markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><p>Refresh of corporate site design, and implementing responsive design across site. Using a custom CMS, working with HTML, CSS and JavaScript.</p></div>' + '</div>' + '</div>',
       titleSrc: 'title'
+    },
+    callbacks: {
+      buildControls: function( ) {
+        // re-appends controls inside the main container
+        this.contentContainer.append(this.arrowLeft.add( this.arrowRight ));
       }
+    }
   });
 
   $( '.iframe_foodweb' ).magnificPopup({
