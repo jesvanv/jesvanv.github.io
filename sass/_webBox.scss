@@ -42,6 +42,9 @@
 @media screen and (max-width: 767px) {
   #webBox {
     a {
+      &.item01 {
+        background-position: 38% -68px; 
+      }
       &.item05 {
         background-size: 105%;
       }

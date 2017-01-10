@@ -177,6 +177,8 @@ a {
     background-position: -30px -140px; }
 
 @media screen and (max-width: 767px) {
+  #webBox a.item01 {
+    background-position: 38% -68px; }
   #webBox a.item05 {
     background-size: 105%; } }
 #designBox a {
