@@ -292,6 +292,35 @@ function startShow( ) {
     }
   });
 
+  $( '#webBox .image_popup.item08' ).magnificPopup({
+    type: 'image',
+    items: [
+      {
+        src: '/images/eps_student_42015.jpg'
+      }, {
+        src: '/images/eps_district_41715a.jpg'
+      }, {
+        src: '/images/eps_district_41715b.jpg'
+      }, {
+        src: '/images/eps_district_41715v2.jpg'
+      }
+    ],
+    gallery: {
+      enabled: true,
+      tcounter: ''
+    },
+    image: {
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><div class="description"><p><span class="imageTitle">UI/UX Design for Online Test Assessment Tool</span><span class="credit">&copy; School Specialty, Inc.</span></p><p>UI concepts and advanced comps for an educational test metric tracking web app. Developed in Adobe Illustrator.</p></div>' + '</div>' + '</div>',
+      titleSrc: 'title'
+    },
+    callbacks: {
+      buildControls: function( ) {
+        // re-appends controls inside the main container
+        this.contentContainer.append(this.arrowLeft.add( this.arrowRight ));
+      }
+    }
+  });
+
   $( '.iframe_foodweb' ).magnificPopup({
     type: 'iframe',
     iframe: {
