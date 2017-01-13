@@ -310,7 +310,7 @@ function startShow( ) {
       tcounter: ''
     },
     image: {
-      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><div class="description"><p><span class="imageTitle">UI/UX Design for Online Test Assessment Tool</span><span class="credit">&copy; School Specialty, Inc.</span></p><p>UI concepts and advanced comps for an educational test metric tracking web app. Developed in Adobe Illustrator.</p></div>' + '</div>' + '</div>',
+      markup: '<div class="mfp-figure">' + '<button title="Close (Esc)" type="button" class="mfp-close">x</button>' + '<div class="mfp-img"></div>' + '<div class="mfp-bottom-bar">' + '<div class="mfp-title"></div>' + '<div class="description"><div class="description"><p><span class="imageTitle">UI/UX Design for Online Test Assessment&nbsp;Tool</span><span class="credit">&copy; School Specialty, Inc.</span></p><p>UI concepts and advanced comps for an educational test metric tracking web app. Developed in Adobe Illustrator.</p></div>' + '</div>' + '</div>',
       titleSrc: 'title'
     },
     callbacks: {
