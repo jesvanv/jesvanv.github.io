@@ -31,6 +31,10 @@ a {
   text-decoration: none;
   display: inline-block; }
 
+/*Global generic classes */
+.block {
+  display: block !important; }
+
 /* ------------------- Main elements ------------------- */
 .name {
   width: 100%;
@@ -523,6 +527,8 @@ footer {
 
 #closer {
   cursor: pointer; }
+  #closer.email {
+    display: none; }
 
 #swiffy-frame {
   position: absolute;

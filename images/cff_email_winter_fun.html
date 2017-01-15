@@ -3,13 +3,18 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width" />
+<script src="/scripts/jquery-3.1.1.min.js"></script>
 <link rel="stylesheet" href="/styles/jcvanv_styles.css">
 </head>
 
 <body style="margin:0" class="email">
 <img src="cff_email_winter_fun.jpg" style="max-width:500px; height:auto" class="email"/>
-<div id="closer">x</div>
+<div id="closer" class="email">x</div>
 </body>
-<script src="/scripts/jquery-3.1.1.min.js"></script>
 <script src="/scripts/window-closer.js"></script>
+<script>
+  if($('#closer') !== 0) {
+    window.location !== window.parent.location ? '' : $('#closer').addClass('block');
+  }
+</script>
 </html>
