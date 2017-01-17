@@ -88,17 +88,6 @@ function startShow( ) {
   $( '#email' ).html( '<a href="mailto:' +
     'jesvanv@comcast.net">Contact</a>' );
 
-  /* Lock body when popup is open
-   $(thumbLink).on('click', function() {
-            $(body).addClass('body-lock');
-          });
-
-        $('.mfp-close').on('click', function() {
-          if($('body').hasClass('body-lock')){
-            $(body).removeClass('body-lock');
-          }
-        }); */
-
   //Initiate Magnific Popups: -------------------------------------------
   $( ".image_popup" ).magnificPopup({ type: "image", tLoading: "Loading..." });
 
@@ -128,24 +117,27 @@ function startShow( ) {
     type: 'iframe',
     tLoading: "Loading...",
     iframe: {
-      markup: '<div style ="width: 80vw; max-width:515px; min-height: 400px; text-align:center; position:relative; margin:0 auto">' + '<div class="mfp-iframe-scaler" style ="max-width:515px">' + '<div class="mfp-close" ></div>' + '<iframe class="mfp-iframe" style="max-width:515px !important;" frameborder="0" allowfullscreen></iframe>' + '<div class="mfp-title" style="margin-top:7.5em">Some caption</div>' + '</div>' + '</div>'
+      markup: '<div class="email-container">' +
+                '<div class="mfp-iframe-scaler">' +
+                  '<div class="mfp-close" ></div>' +
+                  '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>' +
+                  '<div class="mfp-title"></div>' +
+                  '<div class="description">This email promotion designed carefully using inline styles to insure best viewing across email clients. Developed using Adobe Photoshop, HTML and CSS.</div>' +
+                '</div>' +
+              '</div>'
     },
-
     callbacks: {
       markupParse: function( template, values, item ) {
         values.title = item.el.attr( 'title' );
       }
     },
-
     disableOn: function( ) {
-      // Detect here whether you want to show the popup
-      // return true if you want
+      // Detect here whether you want to show the popup, return true if you want
       if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
       return true;
     }
-
   });
 
   $( '.iframe_moonphase' ).magnificPopup({
@@ -162,8 +154,7 @@ function startShow( ) {
     },
 
     disableOn: function( ) {
-      // Detect here whether you want to show the popup
-      // return true if you want
+      // Detect here whether you want to show the popup, return true if you want it to show
       if ( $( window ).width( ) < noPopupWidth ) {
         return false;
       }
