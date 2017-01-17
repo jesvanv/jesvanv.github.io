@@ -9,8 +9,10 @@ module.exports = function(grunt) {
       files: ['grunt.js', 'tasks/**/*.js', 'test/**/*.js']
     },
     watch: {
-      files: '<config:lint.files>',
-      tasks: 'default'
+      scripts: {
+          files: ['scripts/jcvanv_script.js'],
+          tasks: ['minified']
+      }
     },
     jshint: {
       options: {
@@ -46,8 +48,12 @@ module.exports = function(grunt) {
 
   // Load local tasks.
   grunt.loadNpmTasks('grunt-minified');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   // Default task.
-  grunt.registerTask('default', 'minified');
+  grunt.registerTask('default', [
+    'minified',
+    'watch'
+  ]);
 
 };
