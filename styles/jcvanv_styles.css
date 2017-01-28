@@ -316,11 +316,10 @@ footer {
 
 .categoryOn {
   color: #FC0; }
-
-.categoryOn:hover {
-  color: #FC0 !important;
-  text-shadow: none !important;
-  cursor: default; }
+  .categoryOn:hover {
+    color: #FC0 !important;
+    text-shadow: none !important;
+    cursor: default; }
 
 .contactLabelText {
   margin: 0 0 20px;
